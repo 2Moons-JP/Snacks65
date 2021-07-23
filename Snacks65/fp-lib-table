@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name feather)(type KiCad)(uri C:/Users/Zeus/Documents/GitHub/2moons-library/kicad-footprints/feather.pretty)(options "")(descr ""))
+  (lib (name Custom_Footprints)(type KiCad)(uri C:/Users/Zeus/Documents/GitHub/2moons-library/kicad-footprints/Custom_Footprints.pretty)(options "")(descr ""))
+)

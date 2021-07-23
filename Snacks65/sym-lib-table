@@ -2,4 +2,6 @@
   (lib (name usb2422)(type Legacy)(uri C:/Users/Zeus/Documents/GitHub/2moons-library/kicad-symbols/usb2422.lib)(options "")(descr ""))
   (lib (name Regulator_Linear)(type Legacy)(uri C:/Users/Zeus/Documents/GitHub/2moons-library/kicad-symbols/Regulator_Linear.lib)(options "")(descr ""))
   (lib (name Base65-rescue)(type Legacy)(uri C:/Users/Zeus/Documents/GitHub/Base65/Base65/Base65-rescue.lib)(options "")(descr ""))
+  (lib (name Snacks65-rescue)(type Legacy)(uri ${KIPRJMOD}/Snacks65-rescue.lib)(options "")(descr ""))
+  (lib (name MCU_Module)(type Legacy)(uri C:/Users/Zeus/Documents/GitHub/2moons-library/kicad-symbols/MCU_Module.lib)(options "")(descr ""))
 )

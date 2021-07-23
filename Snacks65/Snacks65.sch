@@ -14,1166 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCU_Microchip_ATmega:ATmega32U4-AU U1
-U 1 1 60E2D25F
-P 2850 3425
-F 0 "U1" H 2850 1536 50  0000 C CNN
-F 1 "ATmega32U4-AU" H 2850 1445 50  0000 C CNN
-F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 2850 3425 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 2850 3425 50  0001 C CNN
-	1    2850 3425
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x04_Female J2
-U 1 1 60E40B32
-P 8200 3850
-F 0 "J2" H 8228 3826 50  0000 L CNN
-F 1 "Conn_01x04_Female" H 8228 3735 50  0000 L CNN
-F 2 "random-keyboard-parts:JST-SR-4" H 8200 3850 50  0001 C CNN
-F 3 "~" H 8200 3850 50  0001 C CNN
-	1    8200 3850
-	1    0    0    -1  
-$EndComp
-Wire Notes Line
-	5600 3000 5600 750 
-Wire Notes Line
-	7600 3000 5600 3000
-Wire Notes Line
-	7600 750  7600 3000
-Wire Notes Line
-	5600 750  7600 750 
-$Comp
-L power:GND #PWR0101
-U 1 1 60E577BB
-P 7175 1450
-F 0 "#PWR0101" H 7175 1200 50  0001 C CNN
-F 1 "GND" V 7180 1322 50  0000 R CNN
-F 2 "" H 7175 1450 50  0001 C CNN
-F 3 "" H 7175 1450 50  0001 C CNN
-	1    7175 1450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0102
-U 1 1 60E56B8C
-P 6675 1150
-F 0 "#PWR0102" H 6675 900 50  0001 C CNN
-F 1 "GND" V 6680 1022 50  0000 R CNN
-F 2 "" H 6675 1150 50  0001 C CNN
-F 3 "" H 6675 1150 50  0001 C CNN
-	1    6675 1150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0103
-U 1 1 60E562F0
-P 7175 2050
-F 0 "#PWR0103" H 7175 1800 50  0001 C CNN
-F 1 "GND" V 7180 1922 50  0000 R CNN
-F 2 "" H 7175 2050 50  0001 C CNN
-F 3 "" H 7175 2050 50  0001 C CNN
-	1    7175 2050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0104
-U 1 1 60E55A3A
-P 6850 2650
-F 0 "#PWR0104" H 6850 2400 50  0001 C CNN
-F 1 "GND" H 6855 2477 50  0000 C CNN
-F 2 "" H 6850 2650 50  0001 C CNN
-F 3 "" H 6850 2650 50  0001 C CNN
-	1    6850 2650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6850 2550 7075 2550
-Connection ~ 6850 2550
-Wire Wire Line
-	6850 2550 6850 2650
-Wire Wire Line
-	6625 2550 6850 2550
-Wire Wire Line
-	6625 2350 7075 2350
-Connection ~ 6625 2350
-$Comp
-L Device:R_Small R5
-U 1 1 60E542FA
-P 6625 2450
-F 0 "R5" H 6684 2496 50  0000 L CNN
-F 1 "330Ω" H 6684 2405 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 6625 2450 50  0001 C CNN
-F 3 "~" H 6625 2450 50  0001 C CNN
-	1    6625 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C2
-U 1 1 60E53742
-P 7075 2450
-F 0 "C2" H 7167 2496 50  0000 L CNN
-F 1 "100nF" H 7167 2405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 7075 2450 50  0001 C CNN
-F 3 "~" H 7075 2450 50  0001 C CNN
-	1    7075 2450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6550 2350 6625 2350
-Wire Wire Line
-	6550 2250 6675 2250
-Text GLabel 6675 2250 2    50   Input ~ 0
-GND
-Wire Wire Line
-	6550 2150 6675 2150
-Text GLabel 6675 2150 2    50   Input ~ 0
-VBUS_UP
-Wire Wire Line
-	6550 1850 6675 1850
-Wire Wire Line
-	6550 1750 6675 1750
-Wire Wire Line
-	6550 1650 6675 1650
-Wire Wire Line
-	6550 1550 6675 1550
-Text GLabel 6675 1850 2    50   Input ~ 0
-USB_UP_D+
-Text GLabel 6675 1650 2    50   Input ~ 0
-USB_UP_D+
-Text GLabel 6675 1750 2    50   Input ~ 0
-USB_UP_D-
-Text GLabel 6675 1550 2    50   Input ~ 0
-USB_UP_D-
-NoConn ~ 6550 1950
-NoConn ~ 6550 1350
-Wire Wire Line
-	7000 2050 7175 2050
-$Comp
-L Device:R_Small R7
-U 1 1 60E4BBC7
-P 6900 2050
-F 0 "R7" V 6800 2250 50  0000 C CNN
-F 1 "5.1kΩ" V 6795 2050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 6900 2050 50  0001 C CNN
-F 3 "~" H 6900 2050 50  0001 C CNN
-	1    6900 2050
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6550 2050 6800 2050
-Wire Wire Line
-	7000 1450 7175 1450
-$Comp
-L Device:R_Small R6
-U 1 1 60E4AC76
-P 6900 1450
-F 0 "R6" V 6800 1625 50  0000 C CNN
-F 1 "5.1kΩ" V 6795 1450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 6900 1450 50  0001 C CNN
-F 3 "~" H 6900 1450 50  0001 C CNN
-	1    6900 1450
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6550 1450 6800 1450
-Wire Wire Line
-	6550 1250 6675 1250
-Text GLabel 6675 1250 2    50   Input ~ 0
-VBUS_UP
-Wire Wire Line
-	6550 1150 6675 1150
-$Comp
-L keebio:HRO-TYPE-C-31-M-12 USB1
-U 1 1 60E42597
-P 6450 1700
-F 0 "USB1" H 6283 2497 60  0000 C CNN
-F 1 "HRO-TYPE-C-31-M-12" H 6283 2391 60  0000 C CNN
-F 2 "Type-C:HRO-TYPE-C-31-M-12-HandSoldering" H 6450 1700 60  0001 C CNN
-F 3 "" H 6450 1700 60  0001 C CNN
-	1    6450 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L usb2422:USB2422-I_MJ U2
-U 1 1 60E32326
-P 12325 850
-F 0 "U2" H 13925 1115 50  0000 C CNN
-F 1 "USB2422-I_MJ" H 13925 1024 50  0000 C CNN
-F 2 "" H 12325 1250 50  0001 L CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/00001726B.pdf" H 12325 1350 50  0001 L CNN
-F 4 "+85°C" H 12325 1450 50  0001 L CNN "ambient temperature range high"
-F 5 "-40°C" H 12325 1550 50  0001 L CNN "ambient temperature range low"
-F 6 "No" H 12325 1650 50  0001 L CNN "automotive"
-F 7 "IC" H 12325 1750 50  0001 L CNN "category"
-F 8 "Integrated Circuits (ICs)" H 12325 1850 50  0001 L CNN "device class L1"
-F 9 "Interface ICs" H 12325 1950 50  0001 L CNN "device class L2"
-F 10 "USB Interface ICs" H 12325 2050 50  0001 L CNN "device class L3"
-F 11 "IC HUB CTLR USB 2.0 24QFN" H 12325 2150 50  0001 L CNN "digikey description"
-F 12 "USB2422-I/MJ-ND" H 12325 2250 50  0001 L CNN "digikey part number"
-F 13 "1mm" H 12325 2350 50  0001 L CNN "height"
-F 14 "I2C,USB,SMBus" H 12325 2450 50  0001 L CNN "interface"
-F 15 "QFN50P400X400X90-24" H 12325 2550 50  0001 L CNN "ipc land pattern name"
-F 16 "Yes" H 12325 2650 50  0001 L CNN "lead free"
-F 17 "fefc88ccda64ecf8" H 12325 2750 50  0001 L CNN "library id"
-F 18 "Microchip" H 12325 2850 50  0001 L CNN "manufacturer"
-F 19 "3.6V" H 12325 2950 50  0001 L CNN "max supply voltage"
-F 20 "3V" H 12325 3050 50  0001 L CNN "min supply voltage"
-F 21 "Microchip USB2422-I/MJ; USB Controller; USB 2.0; 3 - 3.6 V; 24-Pin SQFN" H 12325 3150 50  0001 L CNN "mouser description"
-F 22 "579-USB2422-I/MJ" H 12325 3250 50  0001 L CNN "mouser part number"
-F 23 "29-70mA" H 12325 3350 50  0001 L CNN "nominal supply current"
-F 24 "2" H 12325 3450 50  0001 L CNN "number of ports"
-F 25 "SQFN24" H 12325 3550 50  0001 L CNN "package"
-F 26 "Yes" H 12325 3650 50  0001 L CNN "rohs"
-F 27 "0mm" H 12325 3750 50  0001 L CNN "standoff height"
-F 28 "+85°C" H 12325 3850 50  0001 L CNN "temperature range high"
-F 29 "-40°C" H 12325 3950 50  0001 L CNN "temperature range low"
-F 30 "USB 2.0" H 12325 4050 50  0001 L CNN "usb standard"
-	1    12325 850 
-	1    0    0    -1  
-$EndComp
-Text GLabel 12275 850  0    50   Input ~ 0
-VDD33
-Wire Wire Line
-	12425 850  12275 850 
-Wire Wire Line
-	12425 950  12425 850 
-Connection ~ 12425 850 
-Wire Wire Line
-	12425 1050 12425 950 
-Connection ~ 12425 950 
-Wire Wire Line
-	12425 1250 11775 1250
-Wire Wire Line
-	11775 1250 11775 1400
-$Comp
-L Device:C_Small C12
-U 1 1 60E666FA
-P 11775 1500
-F 0 "C12" H 11867 1546 50  0000 L CNN
-F 1 "100nF" H 11867 1455 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 11775 1500 50  0001 C CNN
-F 3 "~" H 11775 1500 50  0001 C CNN
-	1    11775 1500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11775 1600 11775 1775
-$Comp
-L power:GND #PWR0105
-U 1 1 60E67449
-P 11775 1775
-F 0 "#PWR0105" H 11775 1525 50  0001 C CNN
-F 1 "GND" H 11780 1602 50  0000 C CNN
-F 2 "" H 11775 1775 50  0001 C CNN
-F 3 "" H 11775 1775 50  0001 C CNN
-	1    11775 1775
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11775 1250 11775 1125
-Connection ~ 11775 1250
-$Comp
-L Device:R_Small R8
-U 1 1 60E68610
-P 11775 1025
-F 0 "R8" H 11834 1071 50  0000 L CNN
-F 1 "100kΩ" H 11834 980 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 11775 1025 50  0001 C CNN
-F 3 "~" H 11775 1025 50  0001 C CNN
-	1    11775 1025
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11775 925  11775 725 
-Wire Wire Line
-	11775 725  11500 725 
-Text GLabel 11500 725  0    50   Input ~ 0
-VBUS_UP3.3V
-Wire Wire Line
-	12425 1450 11525 1450
-$Comp
-L Device:C_Small C11
-U 1 1 60E6A35B
-P 11525 1550
-F 0 "C11" H 11600 1475 50  0000 L CNN
-F 1 "100nF" H 11525 1400 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 11525 1550 50  0001 C CNN
-F 3 "~" H 11525 1550 50  0001 C CNN
-	1    11525 1550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11525 1450 11125 1450
-Connection ~ 11525 1450
-$Comp
-L Device:C_Small C10
-U 1 1 60E6BF43
-P 11125 1550
-F 0 "C10" H 10850 1575 50  0000 L CNN
-F 1 "1uF" H 10825 1475 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 11125 1550 50  0001 C CNN
-F 3 "~" H 11125 1550 50  0001 C CNN
-	1    11125 1550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11125 1650 11325 1650
-Wire Wire Line
-	11325 1650 11325 1725
-Wire Wire Line
-	11525 1650 11325 1650
-Connection ~ 11325 1650
-$Comp
-L power:GND #PWR0106
-U 1 1 60E6E81D
-P 11325 1725
-F 0 "#PWR0106" H 11325 1475 50  0001 C CNN
-F 1 "GND" H 11330 1552 50  0000 C CNN
-F 2 "" H 11325 1725 50  0001 C CNN
-F 3 "" H 11325 1725 50  0001 C CNN
-	1    11325 1725
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C9
-U 1 1 60E70A0F
-P 10650 1650
-F 0 "C9" H 10725 1575 50  0000 L CNN
-F 1 "100nF" H 10650 1500 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 10650 1650 50  0001 C CNN
-F 3 "~" H 10650 1650 50  0001 C CNN
-	1    10650 1650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10650 1550 10250 1550
-Connection ~ 10650 1550
-$Comp
-L Device:C_Small C8
-U 1 1 60E70A1B
-P 10250 1650
-F 0 "C8" H 9975 1675 50  0000 L CNN
-F 1 "1uF" H 9950 1575 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 10250 1650 50  0001 C CNN
-F 3 "~" H 10250 1650 50  0001 C CNN
-	1    10250 1650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10250 1750 10450 1750
-Wire Wire Line
-	10450 1750 10450 1825
-Wire Wire Line
-	10650 1750 10450 1750
-Connection ~ 10450 1750
-$Comp
-L power:GND #PWR0107
-U 1 1 60E70A29
-P 10450 1825
-F 0 "#PWR0107" H 10450 1575 50  0001 C CNN
-F 1 "GND" H 10455 1652 50  0000 C CNN
-F 2 "" H 10450 1825 50  0001 C CNN
-F 3 "" H 10450 1825 50  0001 C CNN
-	1    10450 1825
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10650 1550 12425 1550
-$Comp
-L Device:R_Small R10
-U 1 1 60E79654
-P 12025 1650
-F 0 "R10" V 11950 1650 50  0000 C CNN
-F 1 "12kΩ" V 11875 1600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 12025 1650 50  0001 C CNN
-F 3 "~" H 12025 1650 50  0001 C CNN
-	1    12025 1650
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	12425 1650 12125 1650
-Wire Wire Line
-	11925 1650 11925 1875
-$Comp
-L power:GND #PWR0108
-U 1 1 60E7CD19
-P 11925 1875
-F 0 "#PWR0108" H 11925 1625 50  0001 C CNN
-F 1 "GND" H 11930 1702 50  0000 C CNN
-F 2 "" H 11925 1875 50  0001 C CNN
-F 3 "" H 11925 1875 50  0001 C CNN
-	1    11925 1875
-	1    0    0    -1  
-$EndComp
-Text GLabel 12425 1850 0    50   Input ~ 0
-USBXTAL1
-Text GLabel 12425 1950 0    50   Input ~ 0
-USBXTAL2
-Wire Wire Line
-	12425 2150 12425 2250
-Wire Wire Line
-	12425 2250 11775 2250
-Wire Wire Line
-	11775 2250 11775 2475
-Connection ~ 12425 2250
-$Comp
-L power:GND #PWR0109
-U 1 1 60E7F63D
-P 11775 2475
-F 0 "#PWR0109" H 11775 2225 50  0001 C CNN
-F 1 "GND" H 11780 2302 50  0000 C CNN
-F 2 "" H 11775 2475 50  0001 C CNN
-F 3 "" H 11775 2475 50  0001 C CNN
-	1    11775 2475
-	1    0    0    -1  
-$EndComp
-NoConn ~ 12425 2550
-$Comp
-L power:GND #PWR0110
-U 1 1 60E823DA
-P 11925 3075
-F 0 "#PWR0110" H 11925 2825 50  0001 C CNN
-F 1 "GND" H 11930 2902 50  0000 C CNN
-F 2 "" H 11925 3075 50  0001 C CNN
-F 3 "" H 11925 3075 50  0001 C CNN
-	1    11925 3075
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R9
-U 1 1 60E83E97
-P 11925 2800
-F 0 "R9" H 11984 2846 50  0000 L CNN
-F 1 "100k" H 11984 2755 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 11925 2800 50  0001 C CNN
-F 3 "~" H 11925 2800 50  0001 C CNN
-	1    11925 2800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11925 2350 11925 2625
-Wire Wire Line
-	11925 2900 11925 3075
-Wire Wire Line
-	11925 2625 12175 2625
-Connection ~ 11925 2625
-Wire Wire Line
-	11925 2625 11925 2700
-$Comp
-L Device:LED D29
-U 1 1 60E87C44
-P 12325 2625
-F 0 "D29" H 12318 2842 50  0000 C CNN
-F 1 "LED" H 12318 2751 50  0000 C CNN
-F 2 "LED_THT:LED_D3.0mm" H 12325 2625 50  0001 C CNN
-F 3 "~" H 12325 2625 50  0001 C CNN
-	1    12325 2625
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11925 2350 12425 2350
-Wire Wire Line
-	12475 2625 12475 3000
-$Comp
-L Device:R_Small R11
-U 1 1 60E8E922
-P 12475 3100
-F 0 "R11" H 12534 3146 50  0000 L CNN
-F 1 "2.2k" H 12534 3055 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 12475 3100 50  0001 C CNN
-F 3 "~" H 12475 3100 50  0001 C CNN
-	1    12475 3100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12475 3200 12475 3375
-Wire Wire Line
-	12475 3375 12200 3375
-Text GLabel 12200 3375 0    50   Input ~ 0
-VBUS_UP3.3V
-Text GLabel 15425 850  2    50   Input ~ 0
-ENABLE_1
-Text GLabel 15425 950  2    50   Input ~ 0
-FLAG_1
-Text GLabel 15425 1050 2    50   Input ~ 0
-DOWN1_D+
-Text GLabel 15425 1550 2    50   Input ~ 0
-DOWN2_D+
-Text GLabel 15425 1150 2    50   Input ~ 0
-DOWN1_D-
-Text GLabel 15425 1650 2    50   Input ~ 0
-DOWN2_D-
-Text GLabel 15425 1350 2    50   Input ~ 0
-ENABLE_2
-Text GLabel 15425 1450 2    50   Input ~ 0
-FLAG_2
-Text GLabel 15425 1950 2    50   Input ~ 0
-USB_UP_D+
-Text GLabel 15425 1850 2    50   Input ~ 0
-USB_UP_D-
-Text GLabel 15425 2050 2    50   Input ~ 0
-VDD33
-$Comp
-L power:GND #PWR0111
-U 1 1 60E94A7C
-P 15625 2975
-F 0 "#PWR0111" H 15625 2725 50  0001 C CNN
-F 1 "GND" H 15630 2802 50  0000 C CNN
-F 2 "" H 15625 2975 50  0001 C CNN
-F 3 "" H 15625 2975 50  0001 C CNN
-	1    15625 2975
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	15425 2850 15625 2850
-Wire Wire Line
-	15625 2850 15625 2975
-Text Notes 6350 675  0    50   ~ 0
-USB C
-$Comp
-L Regulator_Linear:AZ1117-3.3 U3
-U 1 1 60ECEBB4
-P 14125 3950
-F 0 "U3" H 14125 4192 50  0000 C CNN
-F 1 "AIC1221-33GY3TR" H 14125 4101 50  0000 C CNN
-F 2 "" H 14125 4200 50  0001 C CIN
-F 3 "https://www.diodes.com/assets/Datasheets/AZ1117.pdf" H 14125 3950 50  0001 C CNN
-	1    14125 3950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14125 4250 14125 4575
-$Comp
-L power:GND #PWR0112
-U 1 1 60ED222F
-P 14125 4575
-F 0 "#PWR0112" H 14125 4325 50  0001 C CNN
-F 1 "GND" H 14130 4402 50  0000 C CNN
-F 2 "" H 14125 4575 50  0001 C CNN
-F 3 "" H 14125 4575 50  0001 C CNN
-	1    14125 4575
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14425 3950 14650 3950
-$Comp
-L Device:C_Small C14
-U 1 1 60ED4B40
-P 14650 4050
-F 0 "C14" H 14742 4096 50  0000 L CNN
-F 1 "10uF" H 14742 4005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 14650 4050 50  0001 C CNN
-F 3 "~" H 14650 4050 50  0001 C CNN
-	1    14650 4050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14650 4150 14650 4400
-Wire Wire Line
-	14650 3950 15200 3950
-Connection ~ 14650 3950
-Text GLabel 15200 3950 2    50   Input ~ 0
-VBUS_UP3.3V
-$Comp
-L power:GND #PWR0113
-U 1 1 60ED782E
-P 14650 4400
-F 0 "#PWR0113" H 14650 4150 50  0001 C CNN
-F 1 "GND" H 14655 4227 50  0000 C CNN
-F 2 "" H 14650 4400 50  0001 C CNN
-F 3 "" H 14650 4400 50  0001 C CNN
-	1    14650 4400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13825 3950 13575 3950
-Wire Wire Line
-	13575 3950 13575 4025
-$Comp
-L Device:C_Small C13
-U 1 1 60EDA903
-P 13575 4125
-F 0 "C13" H 13667 4171 50  0000 L CNN
-F 1 "4.7uF" H 13667 4080 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 13575 4125 50  0001 C CNN
-F 3 "~" H 13575 4125 50  0001 C CNN
-	1    13575 4125
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13575 3950 13575 3650
-Wire Wire Line
-	13575 3650 13400 3650
-Connection ~ 13575 3950
-Text GLabel 13400 3650 0    50   Input ~ 0
-VBUS_UP5V
-Wire Wire Line
-	13575 3950 13400 3950
-$Comp
-L Device:Fuse F1
-U 1 1 60EE0BF5
-P 13250 3950
-F 0 "F1" V 13053 3950 50  0000 C CNN
-F 1 "ASMD1206-200" V 13144 3950 50  0000 C CNN
-F 2 "Fuse:Fuse_1206_3216Metric" V 13180 3950 50  0001 C CNN
-F 3 "~" H 13250 3950 50  0001 C CNN
-	1    13250 3950
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	13100 3950 12900 3950
-Text GLabel 12900 3950 0    50   Input ~ 0
-VBUS_UP
-Wire Wire Line
-	13575 4225 13575 4400
-$Comp
-L power:GND #PWR0114
-U 1 1 60EE49E4
-P 13575 4400
-F 0 "#PWR0114" H 13575 4150 50  0001 C CNN
-F 1 "GND" H 13580 4227 50  0000 C CNN
-F 2 "" H 13575 4400 50  0001 C CNN
-F 3 "" H 13575 4400 50  0001 C CNN
-	1    13575 4400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Crystal_GND24 Y2
-U 1 1 60EE9894
-P 8875 1200
-F 0 "Y2" V 8921 956 50  0000 R CNN
-F 1 "Crystal_GND24" V 8800 1950 50  0000 R CNN
-F 2 "keyboard_parts:FA-238" H 8875 1200 50  0001 C CNN
-F 3 "~" H 8875 1200 50  0001 C CNN
-	1    8875 1200
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	8675 1200 8525 1200
-Wire Wire Line
-	9075 1200 9275 1200
-Wire Wire Line
-	9275 1200 9275 1475
-Wire Wire Line
-	8875 1350 8875 1475
-$Comp
-L Device:C_Small C7
-U 1 1 60EF8B3B
-P 9175 1475
-F 0 "C7" V 9375 1475 50  0000 C CNN
-F 1 "18pF" V 9300 1475 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 9175 1475 50  0001 C CNN
-F 3 "~" H 9175 1475 50  0001 C CNN
-	1    9175 1475
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9075 1475 8875 1475
-Wire Wire Line
-	8875 1050 8875 825 
-$Comp
-L Device:C_Small C4
-U 1 1 60F00714
-P 8775 825
-F 0 "C4" V 8546 825 50  0000 C CNN
-F 1 "18pF" V 8637 825 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 8775 825 50  0001 C CNN
-F 3 "~" H 8775 825 50  0001 C CNN
-	1    8775 825 
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8525 1200 8525 825 
-Wire Wire Line
-	8525 825  8675 825 
-Wire Wire Line
-	8525 825  8400 825 
-Wire Wire Line
-	8400 825  8400 975 
-Connection ~ 8525 825 
-$Comp
-L power:GND #PWR0115
-U 1 1 60F04AC6
-P 8400 975
-F 0 "#PWR0115" H 8400 725 50  0001 C CNN
-F 1 "GND" H 8405 802 50  0000 C CNN
-F 2 "" H 8400 975 50  0001 C CNN
-F 3 "" H 8400 975 50  0001 C CNN
-	1    8400 975 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8875 825  9175 825 
-Connection ~ 8875 825 
-Text GLabel 9175 825  2    50   Input ~ 0
-USBXTAL2
-Wire Wire Line
-	9275 1475 9525 1475
-Connection ~ 9275 1475
-$Comp
-L power:GND #PWR0116
-U 1 1 60F0A1D1
-P 9525 1475
-F 0 "#PWR0116" H 9525 1225 50  0001 C CNN
-F 1 "GND" H 9530 1302 50  0000 C CNN
-F 2 "" H 9525 1475 50  0001 C CNN
-F 3 "" H 9525 1475 50  0001 C CNN
-	1    9525 1475
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9075 1475 9075 1675
-Wire Wire Line
-	9075 1675 8875 1675
-Connection ~ 9075 1475
-Text GLabel 8875 1675 0    50   Input ~ 0
-USBXTAL1
-$Comp
-L Device:C_Small C6
-U 1 1 60F13FC0
-P 9150 2675
-F 0 "C6" H 9242 2721 50  0000 L CNN
-F 1 "4.7uF" H 9242 2630 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 9150 2675 50  0001 C CNN
-F 3 "~" H 9150 2675 50  0001 C CNN
-	1    9150 2675
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9150 2575 9150 2500
-Wire Wire Line
-	9150 2400 9250 2400
-Wire Wire Line
-	9150 2500 8850 2500
-Connection ~ 9150 2500
-Wire Wire Line
-	9150 2500 9150 2400
-Text GLabel 9250 2400 2    50   Input ~ 0
-VBUS_UP3.3V
-$Comp
-L Device:C_Small C5
-U 1 1 60F19ACC
-P 8850 2675
-F 0 "C5" H 8942 2721 50  0000 L CNN
-F 1 "100nF" H 8942 2630 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 8850 2675 50  0001 C CNN
-F 3 "~" H 8850 2675 50  0001 C CNN
-	1    8850 2675
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8850 2500 8850 2575
-Connection ~ 8850 2500
-Wire Wire Line
-	8850 2500 8550 2500
-$Comp
-L Device:C_Small C3
-U 1 1 60F1E3E9
-P 8550 2675
-F 0 "C3" H 8642 2721 50  0000 L CNN
-F 1 "100nF" H 8642 2630 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 8550 2675 50  0001 C CNN
-F 3 "~" H 8550 2675 50  0001 C CNN
-	1    8550 2675
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8550 2500 8550 2575
-Wire Wire Line
-	9150 2775 8850 2775
-Wire Wire Line
-	8850 2775 8550 2775
-Connection ~ 8850 2775
-Wire Wire Line
-	8550 2775 8550 2975
-Connection ~ 8550 2775
-$Comp
-L power:GND #PWR0117
-U 1 1 60F2B7DF
-P 8550 2975
-F 0 "#PWR0117" H 8550 2725 50  0001 C CNN
-F 1 "GND" H 8555 2802 50  0000 C CNN
-F 2 "" H 8550 2975 50  0001 C CNN
-F 3 "" H 8550 2975 50  0001 C CNN
-	1    8550 2975
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8550 2500 8450 2500
-Connection ~ 8550 2500
-Text GLabel 8450 2500 0    50   Input ~ 0
-VDD33
-Wire Wire Line
-	2750 1625 2850 1625
-Wire Wire Line
-	2950 1625 2850 1625
-Connection ~ 2850 1625
-Text GLabel 10400 3975 0    50   Input ~ 0
-DOWN1_5V
-Wire Wire Line
-	10400 3975 10650 3975
-Text GLabel 10650 3975 2    50   Input ~ 0
-MCU_VBUS
-Text GLabel 10400 4075 0    50   Input ~ 0
-DOWN1_D+
-Text GLabel 10400 4175 0    50   Input ~ 0
-DOWN1_D-
-Text GLabel 10400 4375 0    50   Input ~ 0
-DOWN1_5V
-Text GLabel 10400 4475 0    50   Input ~ 0
-DOWN1_D+
-Text GLabel 10400 4575 0    50   Input ~ 0
-DOWN1_D-
-Text GLabel 10650 4075 2    50   Input ~ 0
-MCU_D+
-Text GLabel 10650 4175 2    50   Input ~ 0
-MCU_D-
-Wire Wire Line
-	10400 4075 10650 4075
-Wire Wire Line
-	10650 4175 10400 4175
-Text GLabel 10650 4375 2    50   Input ~ 0
-TRACKPAD_VBUS
-Text GLabel 10650 4475 2    50   Input ~ 0
-TRACKPAD_D+
-Text GLabel 10650 4575 2    50   Input ~ 0
-TRACKPAD_D-
-Wire Wire Line
-	10400 4375 10650 4375
-Wire Wire Line
-	10400 4475 10650 4475
-Wire Wire Line
-	10400 4575 10650 4575
-Wire Wire Line
-	2250 1925 1950 1925
-Wire Wire Line
-	1950 1925 1950 1550
-$Comp
-L Device:R_Small R3
-U 1 1 60F76B1F
-P 1950 1450
-F 0 "R3" H 2009 1496 50  0000 L CNN
-F 1 "10kΩ" H 2009 1405 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 1950 1450 50  0001 C CNN
-F 3 "~" H 1950 1450 50  0001 C CNN
-	1    1950 1450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1950 1350 1950 1100
-$Comp
-L power:+5V #PWR0118
-U 1 1 60F7B23A
-P 1950 1100
-F 0 "#PWR0118" H 1950 950 50  0001 C CNN
-F 1 "+5V" H 1965 1273 50  0000 C CNN
-F 2 "" H 1950 1100 50  0001 C CNN
-F 3 "" H 1950 1100 50  0001 C CNN
-	1    1950 1100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1950 1925 1800 1925
-Connection ~ 1950 1925
-$Comp
-L kbd:SW_PUSH SW1
-U 1 1 60F83377
-P 1350 1925
-F 0 "SW1" H 1350 2180 50  0000 C CNN
-F 1 "SW_PUSH" H 1350 2089 50  0000 C CNN
-F 2 "random-keyboard-parts:SKQG-1155865" H 1350 1925 50  0001 C CNN
-F 3 "" H 1350 1925 50  0000 C CNN
-	1    1350 1925
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1050 1925 700  1925
-Wire Wire Line
-	700  1925 700  2175
-$Comp
-L power:GND #PWR0119
-U 1 1 60F879F9
-P 700 2175
-F 0 "#PWR0119" H 700 1925 50  0001 C CNN
-F 1 "GND" H 705 2002 50  0000 C CNN
-F 2 "" H 700 2175 50  0001 C CNN
-F 3 "" H 700 2175 50  0001 C CNN
-	1    700  2175
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Resonator_Small Y1
-U 1 1 60F89C53
-P 1850 2225
-F 0 "Y1" V 1545 2175 50  0000 C CNN
-F 1 "Resonator_Small" V 1636 2175 50  0000 C CNN
-F 2 "proj_local:Resonator_SMD_muRata_CSTxExxV-3Pin_3.0x1.1mm_HandSoldering_Compact" H 1825 2225 50  0001 C CNN
-F 3 "~" H 1825 2225 50  0001 C CNN
-	1    1850 2225
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2250 2125 1950 2125
-Wire Wire Line
-	2250 2325 1950 2325
-Wire Wire Line
-	1650 2225 1450 2225
-Wire Wire Line
-	1450 2225 1450 2475
-$Comp
-L power:GND #PWR0120
-U 1 1 60F9798E
-P 1450 2475
-F 0 "#PWR0120" H 1450 2225 50  0001 C CNN
-F 1 "GND" H 1455 2302 50  0000 C CNN
-F 2 "" H 1450 2475 50  0001 C CNN
-F 3 "" H 1450 2475 50  0001 C CNN
-	1    1450 2475
-	1    0    0    -1  
-$EndComp
-NoConn ~ 2250 2525
-Wire Wire Line
-	2250 2725 1950 2725
-Wire Wire Line
-	1950 2725 1950 2625
-$Comp
-L power:+5V #PWR0121
-U 1 1 60F9FF15
-P 1950 2625
-F 0 "#PWR0121" H 1950 2475 50  0001 C CNN
-F 1 "+5V" H 1965 2798 50  0000 C CNN
-F 2 "" H 1950 2625 50  0001 C CNN
-F 3 "" H 1950 2625 50  0001 C CNN
-	1    1950 2625
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2250 2925 1950 2925
-Wire Wire Line
-	2250 3025 1650 3025
-$Comp
-L Device:R_Small R2
-U 1 1 60FA9F34
-P 1850 2925
-F 0 "R2" V 1654 2925 50  0000 C CNN
-F 1 "22Ω" V 1745 2925 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 1850 2925 50  0001 C CNN
-F 3 "~" H 1850 2925 50  0001 C CNN
-	1    1850 2925
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R1
-U 1 1 60FAAB6A
-P 1550 3025
-F 0 "R1" V 1354 3025 50  0000 C CNN
-F 1 "22Ω" V 1445 3025 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 1550 3025 50  0001 C CNN
-F 3 "~" H 1550 3025 50  0001 C CNN
-	1    1550 3025
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1750 2925 1200 2925
-Wire Wire Line
-	1450 3025 1200 3025
-Text GLabel 1200 2925 0    50   Input ~ 0
-MCU_D+
-Text GLabel 1200 3025 0    50   Input ~ 0
-MCU_D-
-Wire Wire Line
-	2250 3225 1700 3225
-Wire Wire Line
-	1700 3225 1700 3725
-$Comp
-L Device:C_Small C1
-U 1 1 60FB9CF0
-P 1700 3825
-F 0 "C1" H 1792 3871 50  0000 L CNN
-F 1 "1uF" H 1792 3780 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1700 3825 50  0001 C CNN
-F 3 "~" H 1700 3825 50  0001 C CNN
-	1    1700 3825
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1700 3925 1700 4125
-$Comp
-L power:GND #PWR0122
-U 1 1 60FBF448
-P 1700 4125
-F 0 "#PWR0122" H 1700 3875 50  0001 C CNN
-F 1 "GND" H 1705 3952 50  0000 C CNN
-F 2 "" H 1700 4125 50  0001 C CNN
-F 3 "" H 1700 4125 50  0001 C CNN
-	1    1700 4125
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2850 5225 2750 5225
-$Comp
-L power:GND #PWR0123
-U 1 1 60FCA1C3
-P 2750 5575
-F 0 "#PWR0123" H 2750 5325 50  0001 C CNN
-F 1 "GND" H 2755 5402 50  0000 C CNN
-F 2 "" H 2750 5575 50  0001 C CNN
-F 3 "" H 2750 5575 50  0001 C CNN
-	1    2750 5575
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2750 5225 2750 5575
-Connection ~ 2750 5225
-Wire Wire Line
-	2850 1625 2850 1225
-$Comp
-L power:+5V #PWR0124
-U 1 1 60FDEF6F
-P 2850 1225
-F 0 "#PWR0124" H 2850 1075 50  0001 C CNN
-F 1 "+5V" H 2865 1398 50  0000 C CNN
-F 2 "" H 2850 1225 50  0001 C CNN
-F 3 "" H 2850 1225 50  0001 C CNN
-	1    2850 1225
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x03_Odd_Even J1
-U 1 1 60FDFF0D
-P 4550 1100
-F 0 "J1" H 4600 1417 50  0000 C CNN
-F 1 "Conn_02x03_Odd_Even" H 4600 1326 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 4550 1100 50  0001 C CNN
-F 3 "~" H 4550 1100 50  0001 C CNN
-	1    4550 1100
-	1    0    0    -1  
-$EndComp
-Entry Wire Line
-	3850 2025 3950 2125
-Entry Wire Line
-	3850 2125 3950 2225
-Entry Wire Line
-	3850 2225 3950 2325
-Entry Wire Line
-	4050 2025 3950 2125
-Entry Wire Line
-	4050 2125 3950 2225
-Entry Wire Line
-	4050 2225 3950 2325
-Wire Wire Line
-	3850 2025 3450 2025
-Wire Wire Line
-	3850 2125 3450 2125
-Wire Wire Line
-	3850 2225 3450 2225
-Wire Wire Line
-	4050 2025 4450 2025
-Wire Wire Line
-	4050 2125 4450 2125
-Wire Wire Line
-	4050 2225 4450 2225
-Entry Wire Line
-	4050 1000 3950 1100
-Entry Wire Line
-	4050 1100 3950 1200
-Wire Wire Line
-	4050 1000 4350 1000
-Wire Wire Line
-	4350 1100 4050 1100
-Entry Wire Line
-	4050 1425 3950 1525
-Wire Wire Line
-	4050 1425 4950 1425
-Wire Wire Line
-	4950 1425 4950 1100
-Wire Wire Line
-	4950 1100 4850 1100
-Wire Wire Line
-	4850 1000 4950 1000
-Wire Wire Line
-	4950 1000 4950 750 
-Wire Wire Line
-	4850 1200 4850 1300
-$Comp
-L power:+5V #PWR0125
-U 1 1 6102A325
-P 4950 750
-F 0 "#PWR0125" H 4950 600 50  0001 C CNN
-F 1 "+5V" H 4965 923 50  0000 C CNN
-F 2 "" H 4950 750 50  0001 C CNN
-F 3 "" H 4950 750 50  0001 C CNN
-	1    4950 750 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0126
-U 1 1 6102BD81
-P 4850 1300
-F 0 "#PWR0126" H 4850 1050 50  0001 C CNN
-F 1 "GND" H 4855 1127 50  0000 C CNN
-F 2 "" H 4850 1300 50  0001 C CNN
-F 3 "" H 4850 1300 50  0001 C CNN
-	1    4850 1300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4350 1200 4350 1275
-Wire Wire Line
-	4350 1275 1800 1275
-Wire Wire Line
-	1800 1275 1800 1925
-Connection ~ 1800 1925
-Wire Wire Line
-	1800 1925 1650 1925
-Text Label 4050 1000 0    50   ~ 0
-MISO
-Text Label 4050 1100 0    50   ~ 0
-SCK
-Text Label 4050 1425 0    50   ~ 0
-MOSI
-Text Label 3850 2025 2    50   ~ 0
-SCK
-Text Label 3850 2125 2    50   ~ 0
-MOSI
-Text Label 3850 2225 2    50   ~ 0
-MISO
-Text Label 4050 2025 0    50   ~ 0
-SCK
-Text Label 4050 2125 0    50   ~ 0
-MOSI
-Text Label 4050 2225 0    50   ~ 0
-MISO
-Wire Wire Line
-	3950 4025 3950 4225
-Wire Wire Line
-	3450 4025 3950 4025
-$Comp
-L Device:R_Small R4
-U 1 1 6103EAE0
-P 3950 4325
-F 0 "R4" H 4009 4371 50  0000 L CNN
-F 1 "10kΩ" H 4009 4280 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 3950 4325 50  0001 C CNN
-F 3 "~" H 3950 4325 50  0001 C CNN
-	1    3950 4325
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3950 4425 3950 4725
-$Comp
-L power:GND #PWR0127
-U 1 1 61046122
-P 3950 4725
-F 0 "#PWR0127" H 3950 4475 50  0001 C CNN
-F 1 "GND" H 3955 4552 50  0000 C CNN
-F 2 "" H 3950 4725 50  0001 C CNN
-F 3 "" H 3950 4725 50  0001 C CNN
-	1    3950 4725
-	1    0    0    -1  
-$EndComp
-$Comp
 L Diode:BAV70 D1
 U 1 1 60EDB740
 P 2150 6325
@@ -1203,7 +43,7 @@ ROW8
 Text GLabel 1000 9450 0    50   Input ~ 0
 ROW9
 $Comp
-L Base65-rescue:SW_Push-Switch SW2
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW2
 U 1 1 60EEE1B3
 P 1525 6325
 F 0 "SW2" H 1525 6525 50  0000 C CNN
@@ -1214,7 +54,7 @@ F 3 "" H 1525 6525 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Base65-rescue:SW_Push-Switch SW7
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW7
 U 1 1 60EFAF80
 P 2775 6325
 F 0 "SW7" H 2775 6610 50  0000 C CNN
@@ -1246,7 +86,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 3925 6325
 	1    0    0    -1  
 $EndComp
 $Comp
-L Base65-rescue:SW_Push-Switch SW12
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW12
 U 1 1 60F5F0D1
 P 3300 6325
 F 0 "SW12" H 3300 6525 50  0000 C CNN
@@ -1257,7 +97,7 @@ F 3 "" H 3300 6525 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Base65-rescue:SW_Push-Switch SW17
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW17
 U 1 1 60F5F0DB
 P 4550 6325
 F 0 "SW17" H 4550 6610 50  0000 C CNN
@@ -1287,7 +127,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 5675 6325
 	1    0    0    -1  
 $EndComp
 $Comp
-L Base65-rescue:SW_Push-Switch SW21
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW21
 U 1 1 60F95653
 P 5050 6325
 F 0 "SW21" H 5050 6525 50  0000 C CNN
@@ -1298,7 +138,7 @@ F 3 "" H 5050 6525 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Base65-rescue:SW_Push-Switch SW25
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW25
 U 1 1 60F9565D
 P 6300 6325
 F 0 "SW25" H 6300 6610 50  0000 C CNN
@@ -1323,7 +163,7 @@ Wire Wire Line
 Wire Wire Line
 	7725 6325 7850 6325
 $Comp
-L Base65-rescue:SW_Push-Switch SW34
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW34
 U 1 1 60FEA015
 P 8050 6325
 F 0 "SW34" H 8050 6610 50  0000 C CNN
@@ -1334,7 +174,7 @@ F 3 "" H 8050 6525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Base65-rescue:SW_Push-Switch SW29
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW29
 U 1 1 60FEA01F
 P 6800 6325
 F 0 "SW29" H 6800 6525 50  0000 C CNN
@@ -1362,7 +202,7 @@ Wire Wire Line
 Wire Wire Line
 	9475 6325 9600 6325
 $Comp
-L Base65-rescue:SW_Push-Switch SW42
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW42
 U 1 1 61014023
 P 9800 6325
 F 0 "SW42" H 9800 6610 50  0000 C CNN
@@ -1373,7 +213,7 @@ F 3 "" H 9800 6525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Base65-rescue:SW_Push-Switch SW38
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW38
 U 1 1 6101402D
 P 8550 6325
 F 0 "SW38" H 8550 6525 50  0000 C CNN
@@ -1401,7 +241,7 @@ Wire Wire Line
 Wire Wire Line
 	11225 6325 11350 6325
 $Comp
-L Base65-rescue:SW_Push-Switch SW51
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW51
 U 1 1 610A4E34
 P 11550 6325
 F 0 "SW51" H 11550 6610 50  0000 C CNN
@@ -1412,7 +252,7 @@ F 3 "" H 11550 6525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Base65-rescue:SW_Push-Switch SW46
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW46
 U 1 1 610A4E3E
 P 10300 6325
 F 0 "SW46" H 10300 6525 50  0000 C CNN
@@ -1440,7 +280,7 @@ Wire Wire Line
 Wire Wire Line
 	12975 6325 13100 6325
 $Comp
-L Base65-rescue:SW_Push-Switch SW61
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW61
 U 1 1 6113EFC4
 P 13300 6325
 F 0 "SW61" H 13300 6610 50  0000 C CNN
@@ -1451,7 +291,7 @@ F 3 "" H 13300 6525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Base65-rescue:SW_Push-Switch SW56
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW56
 U 1 1 6113EFCE
 P 12050 6325
 F 0 "SW56" H 12050 6525 50  0000 C CNN
@@ -1477,7 +317,7 @@ Wire Wire Line
 Wire Wire Line
 	10100 6250 11850 6250
 $Comp
-L Base65-rescue:SW_Push-Switch SW65
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW65
 U 1 1 611F366A
 P 13800 6325
 F 0 "SW65" H 13800 6525 50  0000 C CNN
@@ -1559,7 +399,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 2150 7075
 	1    0    0    -1  
 $EndComp
 $Comp
-L Base65-rescue:SW_Push-Switch SW3
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW3
 U 1 1 6147EE42
 P 1525 7075
 F 0 "SW3" H 1525 7275 50  0000 C CNN
@@ -1570,7 +410,7 @@ F 3 "" H 1525 7275 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Base65-rescue:SW_Push-Switch SW8
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW8
 U 1 1 6147EE4C
 P 2775 7075
 F 0 "SW8" H 2775 7360 50  0000 C CNN
@@ -1602,7 +442,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 3925 7075
 	1    0    0    -1  
 $EndComp
 $Comp
-L Base65-rescue:SW_Push-Switch SW13
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW13
 U 1 1 6147EE65
 P 3300 7075
 F 0 "SW13" H 3300 7275 50  0000 C CNN
@@ -1613,7 +453,7 @@ F 3 "" H 3300 7275 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Base65-rescue:SW_Push-Switch SW18
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW18
 U 1 1 6147EE6F
 P 4550 7075
 F 0 "SW18" H 4550 7360 50  0000 C CNN
@@ -1643,7 +483,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 5675 7075
 	1    0    0    -1  
 $EndComp
 $Comp
-L Base65-rescue:SW_Push-Switch SW22
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW22
 U 1 1 6147EE87
 P 5050 7075
 F 0 "SW22" H 5050 7275 50  0000 C CNN
@@ -1654,7 +494,7 @@ F 3 "" H 5050 7275 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Base65-rescue:SW_Push-Switch SW26
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW26
 U 1 1 6147EE91
 P 6300 7075
 F 0 "SW26" H 6300 7360 50  0000 C CNN
@@ -1679,7 +519,7 @@ Wire Wire Line
 Wire Wire Line
 	7725 7075 7850 7075
 $Comp
-L Base65-rescue:SW_Push-Switch SW35
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW35
 U 1 1 6147EEA2
 P 8050 7075
 F 0 "SW35" H 8050 7360 50  0000 C CNN
@@ -1690,7 +530,7 @@ F 3 "" H 8050 7275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Base65-rescue:SW_Push-Switch SW30
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW30
 U 1 1 6147EEAC
 P 6800 7075
 F 0 "SW30" H 6800 7275 50  0000 C CNN
@@ -1718,7 +558,7 @@ Wire Wire Line
 Wire Wire Line
 	9475 7075 9600 7075
 $Comp
-L Base65-rescue:SW_Push-Switch SW43
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW43
 U 1 1 6147EEC3
 P 9800 7075
 F 0 "SW43" H 9800 7360 50  0000 C CNN
@@ -1729,7 +569,7 @@ F 3 "" H 9800 7275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Base65-rescue:SW_Push-Switch SW39
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW39
 U 1 1 6147EECD
 P 8550 7075
 F 0 "SW39" H 8550 7275 50  0000 C CNN
@@ -1757,7 +597,7 @@ Wire Wire Line
 Wire Wire Line
 	11225 7075 11350 7075
 $Comp
-L Base65-rescue:SW_Push-Switch SW52
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW52
 U 1 1 6147EEE4
 P 11550 7075
 F 0 "SW52" H 11550 7360 50  0000 C CNN
@@ -1768,7 +608,7 @@ F 3 "" H 11550 7275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Base65-rescue:SW_Push-Switch SW47
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW47
 U 1 1 6147EEEE
 P 10300 7075
 F 0 "SW47" H 10300 7275 50  0000 C CNN
@@ -1796,7 +636,7 @@ Wire Wire Line
 Wire Wire Line
 	12975 7075 13100 7075
 $Comp
-L Base65-rescue:SW_Push-Switch SW62
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW62
 U 1 1 6147EF05
 P 13300 7075
 F 0 "SW62" H 13300 7360 50  0000 C CNN
@@ -1807,7 +647,7 @@ F 3 "" H 13300 7275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Base65-rescue:SW_Push-Switch SW57
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW57
 U 1 1 6147EF0F
 P 12050 7075
 F 0 "SW57" H 12050 7275 50  0000 C CNN
@@ -1886,7 +726,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 2150 7825
 	1    0    0    -1  
 $EndComp
 $Comp
-L Base65-rescue:SW_Push-Switch SW4
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW4
 U 1 1 6151B7AA
 P 1525 7825
 F 0 "SW4" H 1525 8025 50  0000 C CNN
@@ -1897,7 +737,7 @@ F 3 "" H 1525 8025 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Base65-rescue:SW_Push-Switch SW9
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW9
 U 1 1 6151B7B4
 P 2775 7825
 F 0 "SW9" H 2775 8110 50  0000 C CNN
@@ -1929,7 +769,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 3925 7825
 	1    0    0    -1  
 $EndComp
 $Comp
-L Base65-rescue:SW_Push-Switch SW14
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW14
 U 1 1 6151B7CD
 P 3300 7825
 F 0 "SW14" H 3300 8025 50  0000 C CNN
@@ -1940,7 +780,7 @@ F 3 "" H 3300 8025 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Base65-rescue:SW_Push-Switch SW19
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW19
 U 1 1 6151B7D7
 P 4550 7825
 F 0 "SW19" H 4550 8110 50  0000 C CNN
@@ -1970,7 +810,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 5675 7825
 	1    0    0    -1  
 $EndComp
 $Comp
-L Base65-rescue:SW_Push-Switch SW23
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW23
 U 1 1 6151B7EF
 P 5050 7825
 F 0 "SW23" H 5050 8025 50  0000 C CNN
@@ -1981,7 +821,7 @@ F 3 "" H 5050 8025 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Base65-rescue:SW_Push-Switch SW27
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW27
 U 1 1 6151B7F9
 P 6300 7825
 F 0 "SW27" H 6300 8110 50  0000 C CNN
@@ -2006,7 +846,7 @@ Wire Wire Line
 Wire Wire Line
 	7725 7825 7850 7825
 $Comp
-L Base65-rescue:SW_Push-Switch SW36
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW36
 U 1 1 6151B80A
 P 8050 7825
 F 0 "SW36" H 8050 8110 50  0000 C CNN
@@ -2017,7 +857,7 @@ F 3 "" H 8050 8025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Base65-rescue:SW_Push-Switch SW31
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW31
 U 1 1 6151B814
 P 6800 7825
 F 0 "SW31" H 6800 8025 50  0000 C CNN
@@ -2045,7 +885,7 @@ Wire Wire Line
 Wire Wire Line
 	9475 7825 9600 7825
 $Comp
-L Base65-rescue:SW_Push-Switch SW44
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW44
 U 1 1 6151B82B
 P 9800 7825
 F 0 "SW44" H 9800 8110 50  0000 C CNN
@@ -2056,7 +896,7 @@ F 3 "" H 9800 8025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Base65-rescue:SW_Push-Switch SW40
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW40
 U 1 1 6151B835
 P 8550 7825
 F 0 "SW40" H 8550 8025 50  0000 C CNN
@@ -2084,7 +924,7 @@ Wire Wire Line
 Wire Wire Line
 	11225 7825 11350 7825
 $Comp
-L Base65-rescue:SW_Push-Switch SW53
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW53
 U 1 1 6151B84C
 P 11550 7825
 F 0 "SW53" H 11550 8110 50  0000 C CNN
@@ -2095,7 +935,7 @@ F 3 "" H 11550 8025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Base65-rescue:SW_Push-Switch SW48
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW48
 U 1 1 6151B856
 P 10300 7825
 F 0 "SW48" H 10300 8025 50  0000 C CNN
@@ -2121,7 +961,7 @@ Wire Wire Line
 Wire Wire Line
 	12375 7825 12250 7825
 $Comp
-L Base65-rescue:SW_Push-Switch SW58
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW58
 U 1 1 6151B877
 P 12050 7825
 F 0 "SW58" H 12050 8025 50  0000 C CNN
@@ -2140,7 +980,7 @@ F 1 "BAV70" H 12675 7951 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 12675 7825 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 12675 7825 50  0001 C CNN
 	1    12675 7825
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	10100 7750 11850 7750
@@ -2191,7 +1031,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 2150 8575
 	1    0    0    -1  
 $EndComp
 $Comp
-L Base65-rescue:SW_Push-Switch SW5
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW5
 U 1 1 6158FB02
 P 1525 8575
 F 0 "SW5" H 1525 8775 50  0000 C CNN
@@ -2202,7 +1042,7 @@ F 3 "" H 1525 8775 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Base65-rescue:SW_Push-Switch SW10
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW10
 U 1 1 6158FB0C
 P 2775 8575
 F 0 "SW10" H 2775 8860 50  0000 C CNN
@@ -2234,7 +1074,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 3925 8575
 	1    0    0    -1  
 $EndComp
 $Comp
-L Base65-rescue:SW_Push-Switch SW15
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW15
 U 1 1 6158FB25
 P 3300 8575
 F 0 "SW15" H 3300 8775 50  0000 C CNN
@@ -2245,7 +1085,7 @@ F 3 "" H 3300 8775 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Base65-rescue:SW_Push-Switch SW20
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW20
 U 1 1 6158FB2F
 P 4550 8575
 F 0 "SW20" H 4550 8860 50  0000 C CNN
@@ -2275,7 +1115,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 5675 8575
 	1    0    0    -1  
 $EndComp
 $Comp
-L Base65-rescue:SW_Push-Switch SW24
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW24
 U 1 1 6158FB47
 P 5050 8575
 F 0 "SW24" H 5050 8775 50  0000 C CNN
@@ -2286,7 +1126,7 @@ F 3 "" H 5050 8775 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Base65-rescue:SW_Push-Switch SW28
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW28
 U 1 1 6158FB51
 P 6300 8575
 F 0 "SW28" H 6300 8860 50  0000 C CNN
@@ -2311,7 +1151,7 @@ Wire Wire Line
 Wire Wire Line
 	7725 8575 7850 8575
 $Comp
-L Base65-rescue:SW_Push-Switch SW37
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW37
 U 1 1 6158FB62
 P 8050 8575
 F 0 "SW37" H 8050 8860 50  0000 C CNN
@@ -2322,7 +1162,7 @@ F 3 "" H 8050 8775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Base65-rescue:SW_Push-Switch SW32
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW32
 U 1 1 6158FB6C
 P 6800 8575
 F 0 "SW32" H 6800 8775 50  0000 C CNN
@@ -2350,7 +1190,7 @@ Wire Wire Line
 Wire Wire Line
 	9475 8575 9600 8575
 $Comp
-L Base65-rescue:SW_Push-Switch SW45
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW45
 U 1 1 6158FB83
 P 9800 8575
 F 0 "SW45" H 9800 8860 50  0000 C CNN
@@ -2361,7 +1201,7 @@ F 3 "" H 9800 8775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Base65-rescue:SW_Push-Switch SW41
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW41
 U 1 1 6158FB8D
 P 8550 8575
 F 0 "SW41" H 8550 8775 50  0000 C CNN
@@ -2389,7 +1229,7 @@ Wire Wire Line
 Wire Wire Line
 	11225 8575 11350 8575
 $Comp
-L Base65-rescue:SW_Push-Switch SW54
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW54
 U 1 1 6158FBA4
 P 11550 8575
 F 0 "SW54" H 11550 8860 50  0000 C CNN
@@ -2400,7 +1240,7 @@ F 3 "" H 11550 8775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Base65-rescue:SW_Push-Switch SW49
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW49
 U 1 1 6158FBAE
 P 10300 8575
 F 0 "SW49" H 10300 8775 50  0000 C CNN
@@ -2428,7 +1268,7 @@ Wire Wire Line
 Wire Wire Line
 	12975 8575 13100 8575
 $Comp
-L Base65-rescue:SW_Push-Switch SW63
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW63
 U 1 1 6158FBC5
 P 13300 8575
 F 0 "SW63" H 13300 8860 50  0000 C CNN
@@ -2439,7 +1279,7 @@ F 3 "" H 13300 8775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Base65-rescue:SW_Push-Switch SW59
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW59
 U 1 1 6158FBCF
 P 12050 8575
 F 0 "SW59" H 12050 8775 50  0000 C CNN
@@ -2518,7 +1358,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 2150 9325
 	1    0    0    -1  
 $EndComp
 $Comp
-L Base65-rescue:SW_Push-Switch SW6
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW6
 U 1 1 6161953C
 P 1525 9325
 F 0 "SW6" H 1525 9525 50  0000 C CNN
@@ -2529,7 +1369,7 @@ F 3 "" H 1525 9525 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Base65-rescue:SW_Push-Switch SW11
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW11
 U 1 1 61619546
 P 2775 9325
 F 0 "SW11" H 2775 9610 50  0000 C CNN
@@ -2561,7 +1401,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 3925 9325
 	1    0    0    -1  
 $EndComp
 $Comp
-L Base65-rescue:SW_Push-Switch SW16
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW16
 U 1 1 6161955F
 P 3300 9325
 F 0 "SW16" H 3300 9525 50  0000 C CNN
@@ -2580,7 +1420,7 @@ Wire Wire Line
 Wire Wire Line
 	7125 9325 7000 9325
 $Comp
-L Base65-rescue:SW_Push-Switch SW33
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW33
 U 1 1 616195A6
 P 6800 9325
 F 0 "SW33" H 6800 9525 50  0000 C CNN
@@ -2606,17 +1446,6 @@ Wire Wire Line
 Wire Wire Line
 	11225 9325 11350 9325
 $Comp
-L Base65-rescue:SW_Push-Switch SW55
-U 1 1 616195DE
-P 11550 9325
-F 0 "SW55" H 11550 9610 50  0000 C CNN
-F 1 "1.25U" H 11550 9519 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1.25U-NoLED" H 11550 9525 50  0001 C CNN
-F 3 "" H 11550 9525 50  0001 C CNN
-	1    11550 9325
-	1    0    0    -1  
-$EndComp
-$Comp
 L Diode:BAV70 D28
 U 1 1 616195F2
 P 10925 9325
@@ -2631,28 +1460,6 @@ Wire Wire Line
 	12375 9325 12250 9325
 Wire Wire Line
 	12975 9325 13100 9325
-$Comp
-L Base65-rescue:SW_Push-Switch SW64
-U 1 1 616195FF
-P 13300 9325
-F 0 "SW64" H 13300 9610 50  0000 C CNN
-F 1 "1.25U" H 13300 9519 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1.25U-NoLED" H 13300 9525 50  0001 C CNN
-F 3 "" H 13300 9525 50  0001 C CNN
-	1    13300 9325
-	1    0    0    -1  
-$EndComp
-$Comp
-L Base65-rescue:SW_Push-Switch SW60
-U 1 1 61619609
-P 12050 9325
-F 0 "SW60" H 12050 9525 50  0000 C CNN
-F 1 "1.25U" H 12050 9625 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1.25U-NoLED" H 12050 9525 50  0001 C CNN
-F 3 "" H 12050 9525 50  0001 C CNN
-	1    12050 9325
-	-1   0    0    1   
-$EndComp
 $Comp
 L Diode:BAV70 D34
 U 1 1 61619613
@@ -2699,78 +1506,8 @@ Text GLabel 12675 6000 1    50   Input ~ 0
 COL6
 Text GLabel 14425 6000 1    50   Input ~ 0
 COL7
-Text GLabel 3450 1925 2    50   Input ~ 0
-ROW0
-Text GLabel 4450 2025 2    50   Input ~ 0
-ROW1
-Text GLabel 4450 2125 2    50   Input ~ 0
-ROW2
-Text GLabel 4450 2225 2    50   Input ~ 0
-ROW3
-Text GLabel 3450 2325 2    50   Input ~ 0
-ROW4
-Text GLabel 3450 2425 2    50   Input ~ 0
-ROW5
-Text GLabel 3450 2525 2    50   Input ~ 0
-ROW6
-Text GLabel 3450 2625 2    50   Input ~ 0
-ROW7
-Text GLabel 3450 2825 2    50   Input ~ 0
-ROW8
-Text GLabel 3450 2925 2    50   Input ~ 0
-ROW9
-Text GLabel 3450 3125 2    50   Input ~ 0
-COL0
-Text GLabel 3450 3225 2    50   Input ~ 0
-COL1
-Text GLabel 3450 3325 2    50   Input ~ 0
-COL2
-Text GLabel 3450 3425 2    50   Input ~ 0
-COL3
-Text GLabel 3450 3525 2    50   Input ~ 0
-COL4
-Text GLabel 3450 3625 2    50   Input ~ 0
-COL5
-Text GLabel 3450 3725 2    50   Input ~ 0
-COL6
-Text GLabel 3450 3825 2    50   Input ~ 0
-COL7
-Wire Wire Line
-	8000 3750 7750 3750
 $Comp
-L power:+5V #PWR0128
-U 1 1 61729431
-P 7750 3500
-F 0 "#PWR0128" H 7750 3350 50  0001 C CNN
-F 1 "+5V" H 7765 3673 50  0000 C CNN
-F 2 "" H 7750 3500 50  0001 C CNN
-F 3 "" H 7750 3500 50  0001 C CNN
-	1    7750 3500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7750 3500 7750 3750
-Wire Wire Line
-	8000 4050 7750 4050
-Wire Wire Line
-	7750 4050 7750 4250
-$Comp
-L power:GND #PWR0129
-U 1 1 61773910
-P 7750 4250
-F 0 "#PWR0129" H 7750 4000 50  0001 C CNN
-F 1 "GND" H 7755 4077 50  0000 C CNN
-F 2 "" H 7750 4250 50  0001 C CNN
-F 3 "" H 7750 4250 50  0001 C CNN
-	1    7750 4250
-	1    0    0    -1  
-$EndComp
-Text GLabel 8000 3950 0    50   Input ~ 0
-PD+
-Text GLabel 8000 3850 0    50   Input ~ 0
-PD-
-$Comp
-L Base65-rescue:SW_Push-Switch SW68
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW68
 U 1 1 6189F7BE
 P 13300 6400
 F 0 "SW68" H 13300 6685 50  0000 C CNN
@@ -2866,19 +1603,14 @@ Wire Wire Line
 Wire Wire Line
 	12675 6525 12675 7275
 Connection ~ 12675 6525
-Wire Wire Line
-	12675 7275 12675 8025
 Connection ~ 12675 7275
-Wire Wire Line
-	12675 8025 12675 8775
-Connection ~ 12675 8025
 Wire Wire Line
 	12675 8775 12675 9525
 Connection ~ 12675 8775
 Wire Wire Line
 	14425 6000 14425 6525
 $Comp
-L Base65-rescue:SW_Push-Switch SW67
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW67
 U 1 1 61DE77C3
 P 12050 8525
 F 0 "SW67" H 12050 8725 50  0000 C CNN
@@ -2893,7 +1625,7 @@ Wire Wire Line
 Wire Wire Line
 	11850 7750 11850 7825
 $Comp
-L Base65-rescue:SW_Push-Switch SW66
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW66
 U 1 1 61EB6BBE
 P 1525 8525
 F 0 "SW66" H 1525 8725 50  0000 C CNN
@@ -2917,10 +1649,9 @@ Wire Wire Line
 Wire Wire Line
 	11750 7825 11750 7950
 Connection ~ 12250 8575
-Connection ~ 13600 6250
 Connection ~ 13500 6450
 $Comp
-L Base65-rescue:SW_Push-Switch SW72
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW72
 U 1 1 61FDAA8F
 P 15050 6325
 F 0 "SW72" H 15050 6610 50  0000 C CNN
@@ -2932,46 +1663,12 @@ F 3 "" H 15050 6525 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	14850 6325 14725 6325
-$Comp
-L Diode:BAV70 D39
-U 1 1 620319F9
-P 16325 6325
-F 0 "D39" H 16325 6542 50  0000 C CNN
-F 1 "BAV70" H 16325 6451 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 16325 6325 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 16325 6325 50  0001 C CNN
-	1    16325 6325
-	1    0    0    -1  
-$EndComp
-Text GLabel 16325 6000 1    50   Input ~ 0
-COL8
-Wire Wire Line
-	16325 6000 16325 6525
-$Comp
-L Base65-rescue:SW_Push-Switch SW76
-U 1 1 620328D6
-P 15700 6325
-F 0 "SW76" H 15700 6610 50  0000 C CNN
-F 1 "1U" H 15700 6519 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 15700 6525 50  0001 C CNN
-F 3 "" H 15700 6525 50  0001 C CNN
-	1    15700 6325
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	15500 6250 15500 6325
-Wire Wire Line
-	15900 6325 16025 6325
-Wire Wire Line
-	13600 6250 15500 6250
 Wire Wire Line
 	15250 6450 15250 6325
 Wire Wire Line
 	13500 6450 15250 6450
-Text GLabel 3450 4125 2    50   Input ~ 0
-COL8
 $Comp
-L Base65-rescue:SW_Push-Switch SW71
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW71
 U 1 1 62327586
 P 13800 7075
 F 0 "SW71" H 13800 7275 50  0000 C CNN
@@ -2990,31 +1687,13 @@ F 1 "BAV70" H 14425 7201 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 14425 7075 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 14425 7075 50  0001 C CNN
 	1    14425 7075
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	14000 7075 14125 7075
-$Comp
-L Base65-rescue:SW_Push-Switch SW73
-U 1 1 62328499
-P 15050 7075
-F 0 "SW73" H 15050 7360 50  0000 C CNN
-F 1 "1U" H 15050 7269 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 15050 7275 50  0001 C CNN
-F 3 "" H 15050 7275 50  0001 C CNN
-	1    15050 7075
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14850 7075 14725 7075
 Connection ~ 14425 6525
 Wire Wire Line
 	13600 7000 13600 7075
-Wire Wire Line
-	13500 7200 15250 7200
-Wire Wire Line
-	15250 7200 15250 7075
-Connection ~ 13500 7200
 $Comp
 L Diode:BAV70 D37
 U 1 1 6242D758
@@ -3024,10 +1703,10 @@ F 1 "BAV70" H 14425 8701 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 14425 8575 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 14425 8575 50  0001 C CNN
 	1    14425 8575
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
-L Base65-rescue:SW_Push-Switch SW69
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW69
 U 1 1 62532A69
 P 13775 8575
 F 0 "SW69" H 13775 8775 50  0000 C CNN
@@ -3037,11 +1716,6 @@ F 3 "" H 13775 8775 50  0001 C CNN
 	1    13775 8575
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	14425 6525 14425 7275
-Connection ~ 14425 7275
-Wire Wire Line
-	14425 7275 14425 8775
 Wire Wire Line
 	13975 8575 14125 8575
 Wire Wire Line
@@ -3060,17 +1734,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 14425 932
 	1    14425 9325
 	1    0    0    -1  
 $EndComp
-$Comp
-L Base65-rescue:SW_Push-Switch SW70
-U 1 1 6271D58F
-P 13775 9325
-F 0 "SW70" H 13775 9525 50  0000 C CNN
-F 1 "1U" H 13775 9625 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 13775 9525 50  0001 C CNN
-F 3 "" H 13775 9525 50  0001 C CNN
-	1    13775 9325
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	13975 9325 14125 9325
 Wire Wire Line
@@ -3079,63 +1742,312 @@ Wire Wire Line
 	13500 9450 15250 9450
 Wire Wire Line
 	15250 9450 15250 9325
-$Comp
-L Base65-rescue:SW_Push-Switch SW74
-U 1 1 6271D59E
-P 15050 9325
-F 0 "SW74" H 15050 9610 50  0000 C CNN
-F 1 "1U" H 15050 9519 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 15050 9525 50  0001 C CNN
-F 3 "" H 15050 9525 50  0001 C CNN
-	1    15050 9325
-	1    0    0    -1  
-$EndComp
 Connection ~ 13500 9450
-Wire Wire Line
-	14425 8775 14425 9525
-Connection ~ 14425 8775
 Wire Wire Line
 	11850 9250 13575 9250
 Wire Wire Line
 	13575 9250 13575 9325
 Connection ~ 11850 9250
-$Comp
-L Diode:BAV70 D40
-U 1 1 62803096
-P 16325 9325
-F 0 "D40" H 16325 9542 50  0000 C CNN
-F 1 "BAV70" H 16325 9451 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 16325 9325 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 16325 9325 50  0001 C CNN
-	1    16325 9325
-	1    0    0    -1  
-$EndComp
-$Comp
-L Base65-rescue:SW_Push-Switch SW75
-U 1 1 6280406C
-P 15675 9325
-F 0 "SW75" H 15675 9525 50  0000 C CNN
-F 1 "1U" H 15675 9625 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 15675 9525 50  0001 C CNN
-F 3 "" H 15675 9525 50  0001 C CNN
-	1    15675 9325
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	15875 9325 16025 9325
-Connection ~ 16325 6525
-Wire Wire Line
-	13575 9250 15475 9250
-Wire Wire Line
-	15475 9250 15475 9325
-Connection ~ 13575 9250
-Wire Wire Line
-	16325 6525 16325 9525
 Wire Wire Line
 	11850 7000 13600 7000
 Connection ~ 11850 7000
-Wire Bus Line
-	3950 975  3950 2475
+Text GLabel 2525 1825 2    50   Input ~ 0
+RDY
+$Comp
+L MCU_Module:Adafruit_Feather_32u4_BluefruitLE A1
+U 1 1 60FDCBB8
+P 2025 2025
+F 0 "A1" H 2025 636 50  0000 C CNN
+F 1 "Adafruit_Feather_32u4_BluefruitLE" H 2025 545 50  0000 C CNN
+F 2 "feather:Adafruit_Feather" H 2125 675 50  0001 L CIN
+F 3 "https://cdn-learn.adafruit.com/downloads/pdf/adafruit-feather-32u4-bluefruit-le.pdf" H 2025 2225 50  0001 C CNN
+	1    2025 2025
+	1    0    0    -1  
+$EndComp
+Text GLabel 1525 2825 0    50   Input ~ 0
+SDA
+Text GLabel 1525 2925 0    50   Input ~ 0
+SCL
+Text GLabel 1525 2225 0    50   Input ~ 0
+COL7
+Text GLabel 1525 2125 0    50   Input ~ 0
+COL6
+Text GLabel 2525 2325 2    50   Input ~ 0
+COL5
+Text GLabel 2525 2225 2    50   Input ~ 0
+COL4
+Text GLabel 2525 2125 2    50   Input ~ 0
+COL3
+Text GLabel 2525 2025 2    50   Input ~ 0
+COL2
+Text GLabel 1525 1825 0    50   Input ~ 0
+ROW9
+Text GLabel 1525 1725 0    50   Input ~ 0
+ROW8
+Text GLabel 1525 1625 0    50   Input ~ 0
+ROW7
+Text GLabel 1525 1525 0    50   Input ~ 0
+ROW6
+Text GLabel 1525 1425 0    50   Input ~ 0
+ROW5
+Text GLabel 1525 1325 0    50   Input ~ 0
+ROW4
+Text GLabel 1525 2325 0    50   Input ~ 0
+ROW3
+Text GLabel 1525 2525 0    50   Input ~ 0
+ROW2
+Text GLabel 1525 2625 0    50   Input ~ 0
+ROW1
+Text GLabel 775  2400 2    50   Input ~ 0
+ROW0
+Text GLabel 1525 1225 0    50   Input ~ 0
+COL0
+NoConn ~ 2525 1625
+NoConn ~ 2525 1225
+NoConn ~ 2225 825 
+NoConn ~ 1925 825 
 Wire Wire Line
-	6600 9250 11850 9250
+	2025 3325 1725 3325
+Wire Wire Line
+	1725 3325 1725 3700
+$Comp
+L power:GND #PWR0101
+U 1 1 61329B46
+P 1725 3700
+F 0 "#PWR0101" H 1725 3450 50  0001 C CNN
+F 1 "GND" H 1730 3527 50  0000 C CNN
+F 2 "" H 1725 3700 50  0001 C CNN
+F 3 "" H 1725 3700 50  0001 C CNN
+	1    1725 3700
+	1    0    0    -1  
+$EndComp
+Text GLabel 4250 1325 1    50   Input ~ 0
+SDA
+Text GLabel 4150 1325 1    50   Input ~ 0
+SCL
+$Comp
+L power:+3V3 #PWR0102
+U 1 1 61335393
+P 4050 1325
+F 0 "#PWR0102" H 4050 1175 50  0001 C CNN
+F 1 "+3V3" H 4065 1498 50  0000 C CNN
+F 2 "" H 4050 1325 50  0001 C CNN
+F 3 "" H 4050 1325 50  0001 C CNN
+	1    4050 1325
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 61336D16
+P 3950 1100
+F 0 "#PWR0103" H 3950 850 50  0001 C CNN
+F 1 "GND" H 3955 927 50  0000 C CNN
+F 2 "" H 3950 1100 50  0001 C CNN
+F 3 "" H 3950 1100 50  0001 C CNN
+	1    3950 1100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3950 1325 3950 1100
+NoConn ~ 3850 1325
+Text GLabel 3750 1325 1    50   Input ~ 0
+RDY
+$Comp
+L power:+3V3 #PWR0104
+U 1 1 613A9C3C
+P 2125 725
+F 0 "#PWR0104" H 2125 575 50  0001 C CNN
+F 1 "+3V3" H 2140 898 50  0000 C CNN
+F 2 "" H 2125 725 50  0001 C CNN
+F 3 "" H 2125 725 50  0001 C CNN
+	1    2125 725 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2125 725  2125 825 
+Wire Wire Line
+	2525 1525 2800 1525
+Wire Wire Line
+	3200 1425 3300 1425
+Wire Wire Line
+	3300 1425 3300 1700
+$Comp
+L power:GND #PWR0105
+U 1 1 614238C5
+P 3300 1700
+F 0 "#PWR0105" H 3300 1450 50  0001 C CNN
+F 1 "GND" H 3305 1527 50  0000 C CNN
+F 2 "" H 3300 1700 50  0001 C CNN
+F 3 "" H 3300 1700 50  0001 C CNN
+	1    3300 1700
+	1    0    0    -1  
+$EndComp
+Text GLabel 2525 1925 2    50   Input ~ 0
+COL1
+$Comp
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW55
+U 1 1 616195DE
+P 10300 9325
+F 0 "SW55" H 10300 9610 50  0000 C CNN
+F 1 "1.25U" H 10300 9519 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1.25U-NoLED" H 10300 9525 50  0001 C CNN
+F 3 "" H 10300 9525 50  0001 C CNN
+	1    10300 9325
+	-1   0    0    1   
+$EndComp
+$Comp
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW60
+U 1 1 61619609
+P 11550 9325
+F 0 "SW60" H 11550 9525 50  0000 C CNN
+F 1 "1.25U" H 11550 9625 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1.25U-NoLED" H 11550 9525 50  0001 C CNN
+F 3 "" H 11550 9525 50  0001 C CNN
+	1    11550 9325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW64
+U 1 1 616195FF
+P 12050 9325
+F 0 "SW64" H 12050 9610 50  0000 C CNN
+F 1 "1.25U" H 12050 9519 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1.25U-NoLED" H 12050 9525 50  0001 C CNN
+F 3 "" H 12050 9525 50  0001 C CNN
+	1    12050 9325
+	-1   0    0    1   
+$EndComp
+$Comp
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW70
+U 1 1 6271D58F
+P 13300 9325
+F 0 "SW70" H 13300 9525 50  0000 C CNN
+F 1 "1U" H 13300 9625 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 13300 9525 50  0001 C CNN
+F 3 "" H 13300 9525 50  0001 C CNN
+	1    13300 9325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW74
+U 1 1 6271D59E
+P 13775 9325
+F 0 "SW74" H 13775 9610 50  0000 C CNN
+F 1 "1U" H 13775 9519 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 13775 9525 50  0001 C CNN
+F 3 "" H 13775 9525 50  0001 C CNN
+	1    13775 9325
+	-1   0    0    1   
+$EndComp
+$Comp
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW75
+U 1 1 6280406C
+P 15050 9325
+F 0 "SW75" H 15050 9525 50  0000 C CNN
+F 1 "1U" H 15050 9625 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 15050 9525 50  0001 C CNN
+F 3 "" H 15050 9525 50  0001 C CNN
+	1    15050 9325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10625 9325 10500 9325
+Wire Wire Line
+	10100 9325 10100 9250
+Wire Wire Line
+	6600 9250 10100 9250
+Wire Wire Line
+	10100 9250 11850 9250
+Connection ~ 10100 9250
+$Comp
+L Device:R_Small R1
+U 1 1 614E6D60
+P 4225 2100
+F 0 "R1" V 4029 2100 50  0000 C CNN
+F 1 "4.7k" V 4120 2100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 4225 2100 50  0001 C CNN
+F 3 "~" H 4225 2100 50  0001 C CNN
+	1    4225 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 614E73B8
+P 4225 2325
+F 0 "R2" V 4029 2325 50  0000 C CNN
+F 1 "4.7k" V 4120 2325 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 4225 2325 50  0001 C CNN
+F 3 "~" H 4225 2325 50  0001 C CNN
+	1    4225 2325
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0106
+U 1 1 614E8922
+P 4775 1950
+F 0 "#PWR0106" H 4775 1800 50  0001 C CNN
+F 1 "+3V3" H 4790 2123 50  0000 C CNN
+F 2 "" H 4775 1950 50  0001 C CNN
+F 3 "" H 4775 1950 50  0001 C CNN
+	1    4775 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4325 2100 4775 2100
+Wire Wire Line
+	4775 2100 4775 1950
+Wire Wire Line
+	4325 2325 4775 2325
+Wire Wire Line
+	4775 2325 4775 2100
+Connection ~ 4775 2100
+Wire Wire Line
+	4125 2100 3950 2100
+Wire Wire Line
+	4125 2325 3950 2325
+Text GLabel 3950 2100 0    50   Input ~ 0
+SDA
+Text GLabel 3950 2325 0    50   Input ~ 0
+SCL
+Connection ~ 14425 6875
+Wire Wire Line
+	14425 6525 14425 6875
+Connection ~ 12675 7625
+Wire Wire Line
+	12675 7275 12675 7625
+Wire Wire Line
+	12675 7625 12675 8775
+Connection ~ 14425 8375
+Wire Wire Line
+	14425 6875 14425 8375
+Wire Wire Line
+	14425 8375 14425 9525
+Wire Wire Line
+	10925 6525 10925 6000
+Connection ~ 10925 6525
+$Comp
+L Switch:SW_SPDT SW1
+U 1 1 6105302E
+P 3000 1525
+F 0 "SW1" H 3000 1810 50  0000 C CNN
+F 1 "SW_SPDT" H 3000 1719 50  0000 C CNN
+F 2 "Custom_Footprints:Slide_Switch_SPDT_ThroughHole" H 3000 1525 50  0001 C CNN
+F 3 "~" H 3000 1525 50  0001 C CNN
+F 4 "C698225" H 3000 1525 50  0001 C CNN "Field4"
+	1    3000 1525
+	1    0    0    -1  
+$EndComp
+Text Label 2675 1525 0    50   ~ 0
+EN
+$Comp
+L Connector:Conn_01x06_Female J1
+U 1 1 6132E50F
+P 4050 1525
+F 0 "J1" V 3896 1773 50  0000 L CNN
+F 1 "Sensor Connector" V 3987 1773 50  0000 L CNN
+F 2 "Connector_FFC-FPC:Hirose_FH12-6S-0.5SH_1x06-1MP_P0.50mm_Horizontal" H 4050 1525 50  0001 C CNN
+F 3 "~" H 4050 1525 50  0001 C CNN
+	1    4050 1525
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

@@ -20,7 +20,10 @@ P 2150 6325
 F 0 "D1" H 2150 6542 50  0000 C CNN
 F 1 "BAV70" H 2150 6451 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 2150 6325 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 2150 6325 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809211023_Changjiang-Electronics-Tech--CJ-BAV70_C68978.pdf" H 2150 6325 50  0001 C CNN
+F 4 "C68978" H 2150 6325 50  0001 C CNN "LCSC Part#"
+F 5 "Changjiang Electronics Tech (CJ)" H 2150 6325 50  0001 C CNN "Mfr"
+F 6 "BAV70" H 2150 6325 50  0001 C CNN "Part#"
 	1    2150 6325
 	1    0    0    -1  
 $EndComp
@@ -81,7 +84,10 @@ P 3925 6325
 F 0 "D6" H 3925 6542 50  0000 C CNN
 F 1 "BAV70" H 3925 6451 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 3925 6325 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 3925 6325 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809211023_Changjiang-Electronics-Tech--CJ-BAV70_C68978.pdf" H 3925 6325 50  0001 C CNN
+F 4 "C68978" H 3925 6325 50  0001 C CNN "LCSC Part#"
+F 5 "Changjiang Electronics Tech (CJ)" H 3925 6325 50  0001 C CNN "Mfr"
+F 6 "BAV70" H 3925 6325 50  0001 C CNN "Part#"
 	1    3925 6325
 	1    0    0    -1  
 $EndComp
@@ -122,7 +128,10 @@ P 5675 6325
 F 0 "D11" H 5675 6542 50  0000 C CNN
 F 1 "BAV70" H 5675 6451 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5675 6325 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 5675 6325 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809211023_Changjiang-Electronics-Tech--CJ-BAV70_C68978.pdf" H 5675 6325 50  0001 C CNN
+F 4 "C68978" H 5675 6325 50  0001 C CNN "LCSC Part#"
+F 5 "Changjiang Electronics Tech (CJ)" H 5675 6325 50  0001 C CNN "Mfr"
+F 6 "BAV70" H 5675 6325 50  0001 C CNN "Part#"
 	1    5675 6325
 	1    0    0    -1  
 $EndComp
@@ -191,7 +200,10 @@ P 7425 6325
 F 0 "D15" H 7425 6542 50  0000 C CNN
 F 1 "BAV70" H 7425 6451 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 7425 6325 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 7425 6325 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809211023_Changjiang-Electronics-Tech--CJ-BAV70_C68978.pdf" H 7425 6325 50  0001 C CNN
+F 4 "C68978" H 7425 6325 50  0001 C CNN "LCSC Part#"
+F 5 "Changjiang Electronics Tech (CJ)" H 7425 6325 50  0001 C CNN "Mfr"
+F 6 "BAV70" H 7425 6325 50  0001 C CNN "Part#"
 	1    7425 6325
 	1    0    0    -1  
 $EndComp
@@ -230,7 +242,10 @@ P 9175 6325
 F 0 "D20" H 9175 6542 50  0000 C CNN
 F 1 "BAV70" H 9175 6451 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 9175 6325 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 9175 6325 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809211023_Changjiang-Electronics-Tech--CJ-BAV70_C68978.pdf" H 9175 6325 50  0001 C CNN
+F 4 "C68978" H 9175 6325 50  0001 C CNN "LCSC Part#"
+F 5 "Changjiang Electronics Tech (CJ)" H 9175 6325 50  0001 C CNN "Mfr"
+F 6 "BAV70" H 9175 6325 50  0001 C CNN "Part#"
 	1    9175 6325
 	1    0    0    -1  
 $EndComp
@@ -269,7 +284,10 @@ P 10925 6325
 F 0 "D24" H 10925 6542 50  0000 C CNN
 F 1 "BAV70" H 10925 6451 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 10925 6325 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 10925 6325 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809211023_Changjiang-Electronics-Tech--CJ-BAV70_C68978.pdf" H 10925 6325 50  0001 C CNN
+F 4 "C68978" H 10925 6325 50  0001 C CNN "LCSC Part#"
+F 5 "Changjiang Electronics Tech (CJ)" H 10925 6325 50  0001 C CNN "Mfr"
+F 6 "BAV70" H 10925 6325 50  0001 C CNN "Part#"
 	1    10925 6325
 	1    0    0    -1  
 $EndComp
@@ -279,17 +297,6 @@ Wire Wire Line
 	12375 6325 12250 6325
 Wire Wire Line
 	12975 6325 13100 6325
-$Comp
-L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW61
-U 1 1 6113EFC4
-P 13300 6325
-F 0 "SW61" H 13300 6610 50  0000 C CNN
-F 1 "1U" H 13300 6519 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 13300 6525 50  0001 C CNN
-F 3 "" H 13300 6525 50  0001 C CNN
-	1    13300 6325
-	1    0    0    -1  
-$EndComp
 $Comp
 L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW56
 U 1 1 6113EFCE
@@ -308,7 +315,10 @@ P 12675 6325
 F 0 "D30" H 12675 6542 50  0000 C CNN
 F 1 "BAV70" H 12675 6451 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 12675 6325 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 12675 6325 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809211023_Changjiang-Electronics-Tech--CJ-BAV70_C68978.pdf" H 12675 6325 50  0001 C CNN
+F 4 "C68978" H 12675 6325 50  0001 C CNN "LCSC Part#"
+F 5 "Changjiang Electronics Tech (CJ)" H 12675 6325 50  0001 C CNN "Mfr"
+F 6 "BAV70" H 12675 6325 50  0001 C CNN "Part#"
 	1    12675 6325
 	1    0    0    -1  
 $EndComp
@@ -316,32 +326,6 @@ Wire Wire Line
 	11850 6250 11850 6325
 Wire Wire Line
 	10100 6250 11850 6250
-$Comp
-L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW65
-U 1 1 611F366A
-P 13800 6325
-F 0 "SW65" H 13800 6525 50  0000 C CNN
-F 1 "1U" H 13800 6625 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 13800 6525 50  0001 C CNN
-F 3 "" H 13800 6525 50  0001 C CNN
-	1    13800 6325
-	-1   0    0    1   
-$EndComp
-$Comp
-L Diode:BAV70 D35
-U 1 1 611F518F
-P 14425 6325
-F 0 "D35" H 14425 6542 50  0000 C CNN
-F 1 "BAV70" H 14425 6451 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 14425 6325 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 14425 6325 50  0001 C CNN
-	1    14425 6325
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14000 6325 14125 6325
-Wire Wire Line
-	13600 6325 13600 6250
 Wire Wire Line
 	2975 6450 4750 6450
 Wire Wire Line
@@ -375,12 +359,7 @@ Wire Wire Line
 	11750 6450 11750 6325
 Connection ~ 10000 6450
 Wire Wire Line
-	11850 6250 13600 6250
-Connection ~ 11850 6250
-Wire Wire Line
 	11750 6450 13500 6450
-Wire Wire Line
-	13500 6450 13500 6400
 Connection ~ 11750 6450
 Wire Wire Line
 	8250 6325 8250 6450
@@ -394,7 +373,10 @@ P 2150 7075
 F 0 "D2" H 2150 7292 50  0000 C CNN
 F 1 "BAV70" H 2150 7201 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 2150 7075 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 2150 7075 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809211023_Changjiang-Electronics-Tech--CJ-BAV70_C68978.pdf" H 2150 7075 50  0001 C CNN
+F 4 "C68978" H 2150 7075 50  0001 C CNN "LCSC Part#"
+F 5 "Changjiang Electronics Tech (CJ)" H 2150 7075 50  0001 C CNN "Mfr"
+F 6 "BAV70" H 2150 7075 50  0001 C CNN "Part#"
 	1    2150 7075
 	1    0    0    -1  
 $EndComp
@@ -437,7 +419,10 @@ P 3925 7075
 F 0 "D7" H 3925 7292 50  0000 C CNN
 F 1 "BAV70" H 3925 7201 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 3925 7075 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 3925 7075 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809211023_Changjiang-Electronics-Tech--CJ-BAV70_C68978.pdf" H 3925 7075 50  0001 C CNN
+F 4 "C68978" H 3925 7075 50  0001 C CNN "LCSC Part#"
+F 5 "Changjiang Electronics Tech (CJ)" H 3925 7075 50  0001 C CNN "Mfr"
+F 6 "BAV70" H 3925 7075 50  0001 C CNN "Part#"
 	1    3925 7075
 	1    0    0    -1  
 $EndComp
@@ -478,7 +463,10 @@ P 5675 7075
 F 0 "D12" H 5675 7292 50  0000 C CNN
 F 1 "BAV70" H 5675 7201 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5675 7075 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 5675 7075 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809211023_Changjiang-Electronics-Tech--CJ-BAV70_C68978.pdf" H 5675 7075 50  0001 C CNN
+F 4 "C68978" H 5675 7075 50  0001 C CNN "LCSC Part#"
+F 5 "Changjiang Electronics Tech (CJ)" H 5675 7075 50  0001 C CNN "Mfr"
+F 6 "BAV70" H 5675 7075 50  0001 C CNN "Part#"
 	1    5675 7075
 	1    0    0    -1  
 $EndComp
@@ -547,7 +535,10 @@ P 7425 7075
 F 0 "D16" H 7425 7292 50  0000 C CNN
 F 1 "BAV70" H 7425 7201 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 7425 7075 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 7425 7075 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809211023_Changjiang-Electronics-Tech--CJ-BAV70_C68978.pdf" H 7425 7075 50  0001 C CNN
+F 4 "C68978" H 7425 7075 50  0001 C CNN "LCSC Part#"
+F 5 "Changjiang Electronics Tech (CJ)" H 7425 7075 50  0001 C CNN "Mfr"
+F 6 "BAV70" H 7425 7075 50  0001 C CNN "Part#"
 	1    7425 7075
 	1    0    0    -1  
 $EndComp
@@ -586,7 +577,10 @@ P 9175 7075
 F 0 "D21" H 9175 7292 50  0000 C CNN
 F 1 "BAV70" H 9175 7201 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 9175 7075 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 9175 7075 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809211023_Changjiang-Electronics-Tech--CJ-BAV70_C68978.pdf" H 9175 7075 50  0001 C CNN
+F 4 "C68978" H 9175 7075 50  0001 C CNN "LCSC Part#"
+F 5 "Changjiang Electronics Tech (CJ)" H 9175 7075 50  0001 C CNN "Mfr"
+F 6 "BAV70" H 9175 7075 50  0001 C CNN "Part#"
 	1    9175 7075
 	1    0    0    -1  
 $EndComp
@@ -625,7 +619,10 @@ P 10925 7075
 F 0 "D25" H 10925 7292 50  0000 C CNN
 F 1 "BAV70" H 10925 7201 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 10925 7075 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 10925 7075 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809211023_Changjiang-Electronics-Tech--CJ-BAV70_C68978.pdf" H 10925 7075 50  0001 C CNN
+F 4 "C68978" H 10925 7075 50  0001 C CNN "LCSC Part#"
+F 5 "Changjiang Electronics Tech (CJ)" H 10925 7075 50  0001 C CNN "Mfr"
+F 6 "BAV70" H 10925 7075 50  0001 C CNN "Part#"
 	1    10925 7075
 	1    0    0    -1  
 $EndComp
@@ -664,7 +661,10 @@ P 12675 7075
 F 0 "D31" H 12675 7292 50  0000 C CNN
 F 1 "BAV70" H 12675 7201 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 12675 7075 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 12675 7075 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809211023_Changjiang-Electronics-Tech--CJ-BAV70_C68978.pdf" H 12675 7075 50  0001 C CNN
+F 4 "C68978" H 12675 7075 50  0001 C CNN "LCSC Part#"
+F 5 "Changjiang Electronics Tech (CJ)" H 12675 7075 50  0001 C CNN "Mfr"
+F 6 "BAV70" H 12675 7075 50  0001 C CNN "Part#"
 	1    12675 7075
 	1    0    0    -1  
 $EndComp
@@ -721,7 +721,10 @@ P 2150 7825
 F 0 "D3" H 2150 8042 50  0000 C CNN
 F 1 "BAV70" H 2150 7951 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 2150 7825 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 2150 7825 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809211023_Changjiang-Electronics-Tech--CJ-BAV70_C68978.pdf" H 2150 7825 50  0001 C CNN
+F 4 "C68978" H 2150 7825 50  0001 C CNN "LCSC Part#"
+F 5 "Changjiang Electronics Tech (CJ)" H 2150 7825 50  0001 C CNN "Mfr"
+F 6 "BAV70" H 2150 7825 50  0001 C CNN "Part#"
 	1    2150 7825
 	1    0    0    -1  
 $EndComp
@@ -764,7 +767,10 @@ P 3925 7825
 F 0 "D8" H 3925 8042 50  0000 C CNN
 F 1 "BAV70" H 3925 7951 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 3925 7825 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 3925 7825 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809211023_Changjiang-Electronics-Tech--CJ-BAV70_C68978.pdf" H 3925 7825 50  0001 C CNN
+F 4 "C68978" H 3925 7825 50  0001 C CNN "LCSC Part#"
+F 5 "Changjiang Electronics Tech (CJ)" H 3925 7825 50  0001 C CNN "Mfr"
+F 6 "BAV70" H 3925 7825 50  0001 C CNN "Part#"
 	1    3925 7825
 	1    0    0    -1  
 $EndComp
@@ -805,7 +811,10 @@ P 5675 7825
 F 0 "D13" H 5675 8042 50  0000 C CNN
 F 1 "BAV70" H 5675 7951 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5675 7825 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 5675 7825 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809211023_Changjiang-Electronics-Tech--CJ-BAV70_C68978.pdf" H 5675 7825 50  0001 C CNN
+F 4 "C68978" H 5675 7825 50  0001 C CNN "LCSC Part#"
+F 5 "Changjiang Electronics Tech (CJ)" H 5675 7825 50  0001 C CNN "Mfr"
+F 6 "BAV70" H 5675 7825 50  0001 C CNN "Part#"
 	1    5675 7825
 	1    0    0    -1  
 $EndComp
@@ -874,7 +883,10 @@ P 7425 7825
 F 0 "D17" H 7425 8042 50  0000 C CNN
 F 1 "BAV70" H 7425 7951 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 7425 7825 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 7425 7825 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809211023_Changjiang-Electronics-Tech--CJ-BAV70_C68978.pdf" H 7425 7825 50  0001 C CNN
+F 4 "C68978" H 7425 7825 50  0001 C CNN "LCSC Part#"
+F 5 "Changjiang Electronics Tech (CJ)" H 7425 7825 50  0001 C CNN "Mfr"
+F 6 "BAV70" H 7425 7825 50  0001 C CNN "Part#"
 	1    7425 7825
 	1    0    0    -1  
 $EndComp
@@ -913,7 +925,10 @@ P 9175 7825
 F 0 "D22" H 9175 8042 50  0000 C CNN
 F 1 "BAV70" H 9175 7951 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 9175 7825 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 9175 7825 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809211023_Changjiang-Electronics-Tech--CJ-BAV70_C68978.pdf" H 9175 7825 50  0001 C CNN
+F 4 "C68978" H 9175 7825 50  0001 C CNN "LCSC Part#"
+F 5 "Changjiang Electronics Tech (CJ)" H 9175 7825 50  0001 C CNN "Mfr"
+F 6 "BAV70" H 9175 7825 50  0001 C CNN "Part#"
 	1    9175 7825
 	1    0    0    -1  
 $EndComp
@@ -952,7 +967,10 @@ P 10925 7825
 F 0 "D26" H 10925 8042 50  0000 C CNN
 F 1 "BAV70" H 10925 7951 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 10925 7825 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 10925 7825 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809211023_Changjiang-Electronics-Tech--CJ-BAV70_C68978.pdf" H 10925 7825 50  0001 C CNN
+F 4 "C68978" H 10925 7825 50  0001 C CNN "LCSC Part#"
+F 5 "Changjiang Electronics Tech (CJ)" H 10925 7825 50  0001 C CNN "Mfr"
+F 6 "BAV70" H 10925 7825 50  0001 C CNN "Part#"
 	1    10925 7825
 	1    0    0    -1  
 $EndComp
@@ -978,7 +996,10 @@ P 12675 7825
 F 0 "D32" H 12675 8042 50  0000 C CNN
 F 1 "BAV70" H 12675 7951 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 12675 7825 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 12675 7825 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809211023_Changjiang-Electronics-Tech--CJ-BAV70_C68978.pdf" H 12675 7825 50  0001 C CNN
+F 4 "C68978" H 12675 7825 50  0001 C CNN "LCSC Part#"
+F 5 "Changjiang Electronics Tech (CJ)" H 12675 7825 50  0001 C CNN "Mfr"
+F 6 "BAV70" H 12675 7825 50  0001 C CNN "Part#"
 	1    12675 7825
 	-1   0    0    1   
 $EndComp
@@ -1026,7 +1047,10 @@ P 2150 8575
 F 0 "D4" H 2150 8792 50  0000 C CNN
 F 1 "BAV70" H 2150 8701 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 2150 8575 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 2150 8575 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809211023_Changjiang-Electronics-Tech--CJ-BAV70_C68978.pdf" H 2150 8575 50  0001 C CNN
+F 4 "C68978" H 2150 8575 50  0001 C CNN "LCSC Part#"
+F 5 "Changjiang Electronics Tech (CJ)" H 2150 8575 50  0001 C CNN "Mfr"
+F 6 "BAV70" H 2150 8575 50  0001 C CNN "Part#"
 	1    2150 8575
 	1    0    0    -1  
 $EndComp
@@ -1069,7 +1093,10 @@ P 3925 8575
 F 0 "D9" H 3925 8792 50  0000 C CNN
 F 1 "BAV70" H 3925 8701 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 3925 8575 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 3925 8575 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809211023_Changjiang-Electronics-Tech--CJ-BAV70_C68978.pdf" H 3925 8575 50  0001 C CNN
+F 4 "C68978" H 3925 8575 50  0001 C CNN "LCSC Part#"
+F 5 "Changjiang Electronics Tech (CJ)" H 3925 8575 50  0001 C CNN "Mfr"
+F 6 "BAV70" H 3925 8575 50  0001 C CNN "Part#"
 	1    3925 8575
 	1    0    0    -1  
 $EndComp
@@ -1110,7 +1137,10 @@ P 5675 8575
 F 0 "D14" H 5675 8792 50  0000 C CNN
 F 1 "BAV70" H 5675 8701 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5675 8575 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 5675 8575 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809211023_Changjiang-Electronics-Tech--CJ-BAV70_C68978.pdf" H 5675 8575 50  0001 C CNN
+F 4 "C68978" H 5675 8575 50  0001 C CNN "LCSC Part#"
+F 5 "Changjiang Electronics Tech (CJ)" H 5675 8575 50  0001 C CNN "Mfr"
+F 6 "BAV70" H 5675 8575 50  0001 C CNN "Part#"
 	1    5675 8575
 	1    0    0    -1  
 $EndComp
@@ -1179,7 +1209,10 @@ P 7425 8575
 F 0 "D18" H 7425 8792 50  0000 C CNN
 F 1 "BAV70" H 7425 8701 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 7425 8575 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 7425 8575 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809211023_Changjiang-Electronics-Tech--CJ-BAV70_C68978.pdf" H 7425 8575 50  0001 C CNN
+F 4 "C68978" H 7425 8575 50  0001 C CNN "LCSC Part#"
+F 5 "Changjiang Electronics Tech (CJ)" H 7425 8575 50  0001 C CNN "Mfr"
+F 6 "BAV70" H 7425 8575 50  0001 C CNN "Part#"
 	1    7425 8575
 	1    0    0    -1  
 $EndComp
@@ -1218,7 +1251,10 @@ P 9175 8575
 F 0 "D23" H 9175 8792 50  0000 C CNN
 F 1 "BAV70" H 9175 8701 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 9175 8575 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 9175 8575 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809211023_Changjiang-Electronics-Tech--CJ-BAV70_C68978.pdf" H 9175 8575 50  0001 C CNN
+F 4 "C68978" H 9175 8575 50  0001 C CNN "LCSC Part#"
+F 5 "Changjiang Electronics Tech (CJ)" H 9175 8575 50  0001 C CNN "Mfr"
+F 6 "BAV70" H 9175 8575 50  0001 C CNN "Part#"
 	1    9175 8575
 	1    0    0    -1  
 $EndComp
@@ -1257,7 +1293,10 @@ P 10925 8575
 F 0 "D27" H 10925 8792 50  0000 C CNN
 F 1 "BAV70" H 10925 8701 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 10925 8575 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 10925 8575 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809211023_Changjiang-Electronics-Tech--CJ-BAV70_C68978.pdf" H 10925 8575 50  0001 C CNN
+F 4 "C68978" H 10925 8575 50  0001 C CNN "LCSC Part#"
+F 5 "Changjiang Electronics Tech (CJ)" H 10925 8575 50  0001 C CNN "Mfr"
+F 6 "BAV70" H 10925 8575 50  0001 C CNN "Part#"
 	1    10925 8575
 	1    0    0    -1  
 $EndComp
@@ -1296,7 +1335,10 @@ P 12675 8575
 F 0 "D33" H 12675 8792 50  0000 C CNN
 F 1 "BAV70" H 12675 8701 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 12675 8575 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 12675 8575 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809211023_Changjiang-Electronics-Tech--CJ-BAV70_C68978.pdf" H 12675 8575 50  0001 C CNN
+F 4 "C68978" H 12675 8575 50  0001 C CNN "LCSC Part#"
+F 5 "Changjiang Electronics Tech (CJ)" H 12675 8575 50  0001 C CNN "Mfr"
+F 6 "BAV70" H 12675 8575 50  0001 C CNN "Part#"
 	1    12675 8575
 	1    0    0    -1  
 $EndComp
@@ -1353,7 +1395,10 @@ P 2150 9325
 F 0 "D5" H 2150 9542 50  0000 C CNN
 F 1 "BAV70" H 2150 9451 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 2150 9325 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 2150 9325 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809211023_Changjiang-Electronics-Tech--CJ-BAV70_C68978.pdf" H 2150 9325 50  0001 C CNN
+F 4 "C68978" H 2150 9325 50  0001 C CNN "LCSC Part#"
+F 5 "Changjiang Electronics Tech (CJ)" H 2150 9325 50  0001 C CNN "Mfr"
+F 6 "BAV70" H 2150 9325 50  0001 C CNN "Part#"
 	1    2150 9325
 	1    0    0    -1  
 $EndComp
@@ -1396,7 +1441,10 @@ P 3925 9325
 F 0 "D10" H 3925 9542 50  0000 C CNN
 F 1 "BAV70" H 3925 9451 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 3925 9325 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 3925 9325 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809211023_Changjiang-Electronics-Tech--CJ-BAV70_C68978.pdf" H 3925 9325 50  0001 C CNN
+F 4 "C68978" H 3925 9325 50  0001 C CNN "LCSC Part#"
+F 5 "Changjiang Electronics Tech (CJ)" H 3925 9325 50  0001 C CNN "Mfr"
+F 6 "BAV70" H 3925 9325 50  0001 C CNN "Part#"
 	1    3925 9325
 	1    0    0    -1  
 $EndComp
@@ -1437,7 +1485,10 @@ P 7425 9325
 F 0 "D19" H 7425 9542 50  0000 C CNN
 F 1 "BAV70" H 7425 9451 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 7425 9325 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 7425 9325 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809211023_Changjiang-Electronics-Tech--CJ-BAV70_C68978.pdf" H 7425 9325 50  0001 C CNN
+F 4 "C68978" H 7425 9325 50  0001 C CNN "LCSC Part#"
+F 5 "Changjiang Electronics Tech (CJ)" H 7425 9325 50  0001 C CNN "Mfr"
+F 6 "BAV70" H 7425 9325 50  0001 C CNN "Part#"
 	1    7425 9325
 	1    0    0    -1  
 $EndComp
@@ -1452,14 +1503,15 @@ P 10925 9325
 F 0 "D28" H 10925 9542 50  0000 C CNN
 F 1 "BAV70" H 10925 9451 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 10925 9325 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 10925 9325 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809211023_Changjiang-Electronics-Tech--CJ-BAV70_C68978.pdf" H 10925 9325 50  0001 C CNN
+F 4 "C68978" H 10925 9325 50  0001 C CNN "LCSC Part#"
+F 5 "Changjiang Electronics Tech (CJ)" H 10925 9325 50  0001 C CNN "Mfr"
+F 6 "BAV70" H 10925 9325 50  0001 C CNN "Part#"
 	1    10925 9325
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	12375 9325 12250 9325
-Wire Wire Line
-	12975 9325 13100 9325
 $Comp
 L Diode:BAV70 D34
 U 1 1 61619613
@@ -1467,7 +1519,10 @@ P 12675 9325
 F 0 "D34" H 12675 9542 50  0000 C CNN
 F 1 "BAV70" H 12675 9451 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 12675 9325 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 12675 9325 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809211023_Changjiang-Electronics-Tech--CJ-BAV70_C68978.pdf" H 12675 9325 50  0001 C CNN
+F 4 "C68978" H 12675 9325 50  0001 C CNN "LCSC Part#"
+F 5 "Changjiang Electronics Tech (CJ)" H 12675 9325 50  0001 C CNN "Mfr"
+F 6 "BAV70" H 12675 9325 50  0001 C CNN "Part#"
 	1    12675 9325
 	1    0    0    -1  
 $EndComp
@@ -1481,11 +1536,6 @@ Connection ~ 1325 9250
 Connection ~ 6600 9250
 Wire Wire Line
 	11750 9450 11750 9325
-Wire Wire Line
-	11750 9450 13500 9450
-Wire Wire Line
-	13500 9450 13500 9325
-Connection ~ 11750 9450
 Wire Wire Line
 	3100 9250 6600 9250
 Wire Wire Line
@@ -1504,25 +1554,8 @@ Text GLabel 10925 6000 1    50   Input ~ 0
 COL5
 Text GLabel 12675 6000 1    50   Input ~ 0
 COL6
-Text GLabel 14425 6000 1    50   Input ~ 0
-COL7
-$Comp
-L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW68
-U 1 1 6189F7BE
-P 13300 6400
-F 0 "SW68" H 13300 6685 50  0000 C CNN
-F 1 "2U" H 13300 6594 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-2U-ReversedStabilizers-NoLED" H 13300 6600 50  0001 C CNN
-F 3 "" H 13300 6600 50  0001 C CNN
-	1    13300 6400
-	1    0    0    -1  
-$EndComp
-Connection ~ 13500 6400
-Wire Wire Line
-	13500 6400 13500 6325
 Wire Wire Line
 	13100 6325 13100 6400
-Connection ~ 13100 6325
 Wire Wire Line
 	2150 6000 2150 6525
 Wire Wire Line
@@ -1607,8 +1640,6 @@ Connection ~ 12675 7275
 Wire Wire Line
 	12675 8775 12675 9525
 Connection ~ 12675 8775
-Wire Wire Line
-	14425 6000 14425 6525
 $Comp
 L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW67
 U 1 1 61DE77C3
@@ -1649,108 +1680,6 @@ Wire Wire Line
 Wire Wire Line
 	11750 7825 11750 7950
 Connection ~ 12250 8575
-Connection ~ 13500 6450
-$Comp
-L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW72
-U 1 1 61FDAA8F
-P 15050 6325
-F 0 "SW72" H 15050 6610 50  0000 C CNN
-F 1 "1U" H 15050 6519 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 15050 6525 50  0001 C CNN
-F 3 "" H 15050 6525 50  0001 C CNN
-	1    15050 6325
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14850 6325 14725 6325
-Wire Wire Line
-	15250 6450 15250 6325
-Wire Wire Line
-	13500 6450 15250 6450
-$Comp
-L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW71
-U 1 1 62327586
-P 13800 7075
-F 0 "SW71" H 13800 7275 50  0000 C CNN
-F 1 "1U" H 13800 7375 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 13800 7275 50  0001 C CNN
-F 3 "" H 13800 7275 50  0001 C CNN
-	1    13800 7075
-	-1   0    0    1   
-$EndComp
-$Comp
-L Diode:BAV70 D36
-U 1 1 6232848C
-P 14425 7075
-F 0 "D36" H 14425 7292 50  0000 C CNN
-F 1 "BAV70" H 14425 7201 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 14425 7075 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 14425 7075 50  0001 C CNN
-	1    14425 7075
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	14000 7075 14125 7075
-Connection ~ 14425 6525
-Wire Wire Line
-	13600 7000 13600 7075
-$Comp
-L Diode:BAV70 D37
-U 1 1 6242D758
-P 14425 8575
-F 0 "D37" H 14425 8792 50  0000 C CNN
-F 1 "BAV70" H 14425 8701 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 14425 8575 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 14425 8575 50  0001 C CNN
-	1    14425 8575
-	-1   0    0    1   
-$EndComp
-$Comp
-L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW69
-U 1 1 62532A69
-P 13775 8575
-F 0 "SW69" H 13775 8775 50  0000 C CNN
-F 1 "1U" H 13775 8875 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 13775 8775 50  0001 C CNN
-F 3 "" H 13775 8775 50  0001 C CNN
-	1    13775 8575
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	13975 8575 14125 8575
-Wire Wire Line
-	11850 8500 13575 8500
-Wire Wire Line
-	13575 8500 13575 8575
-Connection ~ 11850 8500
-$Comp
-L Diode:BAV70 D38
-U 1 1 6271C5ED
-P 14425 9325
-F 0 "D38" H 14425 9542 50  0000 C CNN
-F 1 "BAV70" H 14425 9451 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 14425 9325 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 14425 9325 50  0001 C CNN
-	1    14425 9325
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13975 9325 14125 9325
-Wire Wire Line
-	14850 9325 14725 9325
-Wire Wire Line
-	13500 9450 15250 9450
-Wire Wire Line
-	15250 9450 15250 9325
-Connection ~ 13500 9450
-Wire Wire Line
-	11850 9250 13575 9250
-Wire Wire Line
-	13575 9250 13575 9325
-Connection ~ 11850 9250
-Wire Wire Line
-	11850 7000 13600 7000
-Connection ~ 11850 7000
 Text GLabel 2525 1825 2    50   Input ~ 0
 RDY
 $Comp
@@ -1768,39 +1697,35 @@ Text GLabel 1525 2825 0    50   Input ~ 0
 SDA
 Text GLabel 1525 2925 0    50   Input ~ 0
 SCL
-Text GLabel 1525 2225 0    50   Input ~ 0
-COL7
-Text GLabel 1525 2125 0    50   Input ~ 0
-COL6
-Text GLabel 2525 2325 2    50   Input ~ 0
-COL5
-Text GLabel 2525 2225 2    50   Input ~ 0
-COL4
-Text GLabel 2525 2125 2    50   Input ~ 0
-COL3
 Text GLabel 2525 2025 2    50   Input ~ 0
-COL2
-Text GLabel 1525 1825 0    50   Input ~ 0
-ROW9
-Text GLabel 1525 1725 0    50   Input ~ 0
-ROW8
-Text GLabel 1525 1625 0    50   Input ~ 0
-ROW7
+COL6
 Text GLabel 1525 1525 0    50   Input ~ 0
-ROW6
+COL5
+Text GLabel 2525 2125 2    50   Input ~ 0
+COL4
 Text GLabel 1525 1425 0    50   Input ~ 0
-ROW5
-Text GLabel 1525 1325 0    50   Input ~ 0
-ROW4
-Text GLabel 1525 2325 0    50   Input ~ 0
-ROW3
-Text GLabel 1525 2525 0    50   Input ~ 0
-ROW2
+COL3
+Text GLabel 2525 2225 2    50   Input ~ 0
+COL2
 Text GLabel 1525 2625 0    50   Input ~ 0
-ROW1
-Text GLabel 775  2400 2    50   Input ~ 0
-ROW0
+ROW9
+Text GLabel 1525 2525 0    50   Input ~ 0
+ROW8
+Text GLabel 1525 2225 0    50   Input ~ 0
+ROW6
+Text GLabel 1525 2125 0    50   Input ~ 0
+ROW5
 Text GLabel 1525 1225 0    50   Input ~ 0
+ROW4
+Text GLabel 1525 1625 0    50   Input ~ 0
+ROW3
+Text GLabel 2525 1925 2    50   Input ~ 0
+ROW2
+Text GLabel 1525 1725 0    50   Input ~ 0
+ROW1
+Text GLabel 1525 1825 0    50   Input ~ 0
+ROW0
+Text GLabel 2525 2325 2    50   Input ~ 0
 COL0
 NoConn ~ 2525 1625
 NoConn ~ 2525 1225
@@ -1820,17 +1745,6 @@ F 2 "" H 1725 3700 50  0001 C CNN
 F 3 "" H 1725 3700 50  0001 C CNN
 	1    1725 3700
 	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x06_Female J1
-U 1 1 6132E50F
-P 4050 1525
-F 0 "J1" V 3896 1773 50  0000 L CNN
-F 1 "Sensor Connector" V 3987 1773 50  0000 L CNN
-F 2 "Connector_FFC-FPC:Hirose_FH12-6S-0.5SH_1x06-1MP_P0.50mm_Horizontal" H 4050 1525 50  0001 C CNN
-F 3 "~" H 4050 1525 50  0001 C CNN
-	1    4050 1525
-	0    1    1    0   
 $EndComp
 Text GLabel 4250 1325 1    50   Input ~ 0
 SDA
@@ -1893,7 +1807,7 @@ F 3 "" H 3300 1700 50  0001 C CNN
 	1    3300 1700
 	1    0    0    -1  
 $EndComp
-Text GLabel 2525 1925 2    50   Input ~ 0
+Text GLabel 1525 1325 0    50   Input ~ 0
 COL1
 $Comp
 L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW55
@@ -1928,39 +1842,6 @@ F 3 "" H 12050 9525 50  0001 C CNN
 	1    12050 9325
 	-1   0    0    1   
 $EndComp
-$Comp
-L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW70
-U 1 1 6271D58F
-P 13300 9325
-F 0 "SW70" H 13300 9525 50  0000 C CNN
-F 1 "1U" H 13300 9625 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 13300 9525 50  0001 C CNN
-F 3 "" H 13300 9525 50  0001 C CNN
-	1    13300 9325
-	1    0    0    -1  
-$EndComp
-$Comp
-L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW74
-U 1 1 6271D59E
-P 13775 9325
-F 0 "SW74" H 13775 9610 50  0000 C CNN
-F 1 "1U" H 13775 9519 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 13775 9525 50  0001 C CNN
-F 3 "" H 13775 9525 50  0001 C CNN
-	1    13775 9325
-	-1   0    0    1   
-$EndComp
-$Comp
-L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW75
-U 1 1 6280406C
-P 15050 9325
-F 0 "SW75" H 15050 9525 50  0000 C CNN
-F 1 "1U" H 15050 9625 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 15050 9525 50  0001 C CNN
-F 3 "" H 15050 9525 50  0001 C CNN
-	1    15050 9325
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10625 9325 10500 9325
 Wire Wire Line
@@ -1977,7 +1858,10 @@ P 4225 2100
 F 0 "R1" V 4029 2100 50  0000 C CNN
 F 1 "4.7k" V 4120 2100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 4225 2100 50  0001 C CNN
-F 3 "~" H 4225 2100 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1808281533_UNI-ROYAL-Uniroyal-Elec-0805W8F4701T5E_C17673.pdf" H 4225 2100 50  0001 C CNN
+F 4 "C17673" H 4225 2100 50  0001 C CNN "LCSC Part#"
+F 5 "UNI-ROYAL(Uniroyal Elec)" H 4225 2100 50  0001 C CNN "Mfr"
+F 6 "0805W8F4701T5E" H 4225 2100 50  0001 C CNN "Part#"
 	1    4225 2100
 	0    1    1    0   
 $EndComp
@@ -1988,7 +1872,10 @@ P 4225 2325
 F 0 "R2" V 4029 2325 50  0000 C CNN
 F 1 "4.7k" V 4120 2325 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 4225 2325 50  0001 C CNN
-F 3 "~" H 4225 2325 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1808281533_UNI-ROYAL-Uniroyal-Elec-0805W8F4701T5E_C17673.pdf" H 4225 2325 50  0001 C CNN
+F 4 "C17673" H 4225 2325 50  0001 C CNN "LCSC Part#"
+F 5 "UNI-ROYAL(Uniroyal Elec)" H 4225 2325 50  0001 C CNN "Mfr"
+F 6 "0805W8F4701T5E" H 4225 2325 50  0001 C CNN "Part#"
 	1    4225 2325
 	0    1    1    0   
 $EndComp
@@ -2020,19 +1907,11 @@ Text GLabel 3950 2100 0    50   Input ~ 0
 SDA
 Text GLabel 3950 2325 0    50   Input ~ 0
 SCL
-Connection ~ 14425 6875
-Wire Wire Line
-	14425 6525 14425 6875
 Connection ~ 12675 7625
 Wire Wire Line
 	12675 7275 12675 7625
 Wire Wire Line
 	12675 7625 12675 8775
-Connection ~ 14425 8375
-Wire Wire Line
-	14425 6875 14425 8375
-Wire Wire Line
-	14425 8375 14425 9525
 Wire Wire Line
 	10925 6525 10925 6000
 Connection ~ 10925 6525
@@ -2043,11 +1922,43 @@ P 3000 1525
 F 0 "SW1" H 3000 1810 50  0000 C CNN
 F 1 "SW_SPDT" H 3000 1719 50  0000 C CNN
 F 2 "Custom_Footprints:Slide_Switch_SPDT_ThroughHole" H 3000 1525 50  0001 C CNN
-F 3 "~" H 3000 1525 50  0001 C CNN
-F 4 "C698225" H 3000 1525 50  0001 C CNN "Field4"
+F 3 "https://datasheet.lcsc.com/lcsc/2007172136_USAKRO-SS-12D03-G4_C698225.pdf" H 3000 1525 50  0001 C CNN
+F 4 "" H 3000 1525 50  0001 C CNN "Field4"
+F 5 "C698225" H 3000 1525 50  0001 C CNN "LCSC Part#"
+F 6 "USAKRO" H 3000 1525 50  0001 C CNN "Mfr"
+F 7 "SS-12D03-G4" H 3000 1525 50  0001 C CNN "Part#"
 	1    3000 1525
 	1    0    0    -1  
 $EndComp
 Text Label 2675 1525 0    50   ~ 0
 EN
+$Comp
+L Connector:Conn_01x06_Female J1
+U 1 1 6132E50F
+P 4050 1525
+F 0 "J1" V 3896 1773 50  0000 L CNN
+F 1 "Sensor Connector" V 3987 1773 50  0000 L CNN
+F 2 "Connector_FFC-FPC:Hirose_FH12-6S-0.5SH_1x06-1MP_P0.50mm_Horizontal" H 4050 1525 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811021340_HRS-Hirose-FH12-6S-0.5SH-55_C202118.pdf" H 4050 1525 50  0001 C CNN
+F 4 "C202118" H 4050 1525 50  0001 C CNN "LCSC Part#"
+F 5 "HRS(Hirose)" H 4050 1525 50  0001 C CNN "Mfr"
+F 6 "FH12-6S-0.5SH(55)" H 4050 1525 50  0001 C CNN "Part#"
+	1    4050 1525
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13500 6450 13500 6400
+$Comp
+L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW68
+U 1 1 6189F7BE
+P 13300 6400
+F 0 "SW68" H 13300 6685 50  0000 C CNN
+F 1 "2U" H 13300 6594 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-2U-ReversedStabilizers-NoLED" H 13300 6600 50  0001 C CNN
+F 3 "" H 13300 6600 50  0001 C CNN
+	1    13300 6400
+	1    0    0    -1  
+$EndComp
+Text GLabel 1525 2325 0    50   Input ~ 0
+ROW7
 $EndSCHEMATC

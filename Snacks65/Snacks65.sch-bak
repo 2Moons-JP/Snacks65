@@ -1697,35 +1697,35 @@ Text GLabel 1525 2825 0    50   Input ~ 0
 SDA
 Text GLabel 1525 2925 0    50   Input ~ 0
 SCL
-Text GLabel 2525 2025 2    50   Input ~ 0
+Text GLabel 1525 1725 0    50   Input ~ 0
 COL6
-Text GLabel 1525 1525 0    50   Input ~ 0
-COL5
-Text GLabel 2525 2125 2    50   Input ~ 0
-COL4
-Text GLabel 1525 1425 0    50   Input ~ 0
-COL3
 Text GLabel 2525 2225 2    50   Input ~ 0
+COL5
+Text GLabel 1525 1625 0    50   Input ~ 0
+COL4
+Text GLabel 2525 2325 2    50   Input ~ 0
+COL3
+Text GLabel 1525 1525 0    50   Input ~ 0
 COL2
 Text GLabel 1525 2625 0    50   Input ~ 0
 ROW9
 Text GLabel 1525 2525 0    50   Input ~ 0
 ROW8
-Text GLabel 1525 2225 0    50   Input ~ 0
+Text GLabel 1525 2325 0    50   Input ~ 0
 ROW6
-Text GLabel 1525 2125 0    50   Input ~ 0
+Text GLabel 1525 1325 0    50   Input ~ 0
 ROW5
-Text GLabel 1525 1225 0    50   Input ~ 0
+Text GLabel 1525 2225 0    50   Input ~ 0
 ROW4
-Text GLabel 1525 1625 0    50   Input ~ 0
+Text GLabel 2525 2125 2    50   Input ~ 0
 ROW3
-Text GLabel 2525 1925 2    50   Input ~ 0
-ROW2
-Text GLabel 1525 1725 0    50   Input ~ 0
-ROW1
 Text GLabel 1525 1825 0    50   Input ~ 0
+ROW2
+Text GLabel 2525 2025 2    50   Input ~ 0
+ROW1
+Text GLabel 2525 1925 2    50   Input ~ 0
 ROW0
-Text GLabel 2525 2325 2    50   Input ~ 0
+Text GLabel 1525 1425 0    50   Input ~ 0
 COL0
 NoConn ~ 2525 1625
 NoConn ~ 2525 1225
@@ -1807,7 +1807,7 @@ F 3 "" H 3300 1700 50  0001 C CNN
 	1    3300 1700
 	1    0    0    -1  
 $EndComp
-Text GLabel 1525 1325 0    50   Input ~ 0
+Text GLabel 1525 2125 0    50   Input ~ 0
 COL1
 $Comp
 L Snacks65-rescue:SW_Push-Switch-Base65-rescue SW55
@@ -1959,6 +1959,6 @@ F 3 "" H 13300 6600 50  0001 C CNN
 	1    13300 6400
 	1    0    0    -1  
 $EndComp
-Text GLabel 1525 2325 0    50   Input ~ 0
+Text GLabel 1525 1225 0    50   Input ~ 0
 ROW7
 $EndSCHEMATC

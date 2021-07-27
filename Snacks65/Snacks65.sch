@@ -1683,7 +1683,7 @@ Connection ~ 12250 8575
 Text GLabel 2525 1825 2    50   Input ~ 0
 RDY
 $Comp
-L MCU_Module:Adafruit_Feather_32u4_BluefruitLE A1
+L Snacks65-rescue:Adafruit_Feather_32u4_BluefruitLE-MCU_Module A1
 U 1 1 60FDCBB8
 P 2025 2025
 F 0 "A1" H 2025 636 50  0000 C CNN

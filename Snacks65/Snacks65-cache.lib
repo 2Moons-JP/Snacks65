@@ -74,11 +74,11 @@ X K 3 0 -200 100 U 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# MCU_Module_Adafruit_Feather_32u4_BluefruitLE
+# Snacks65-rescue_Adafruit_Feather_32u4_BluefruitLE-MCU_Module
 #
-DEF MCU_Module_Adafruit_Feather_32u4_BluefruitLE A 0 20 Y Y 1 F N
+DEF Snacks65-rescue_Adafruit_Feather_32u4_BluefruitLE-MCU_Module A 0 20 Y Y 1 F N
 F0 "A" -400 1125 50 H V L BNN
-F1 "MCU_Module_Adafruit_Feather_32u4_BluefruitLE" 100 -1250 50 H V L CNN
+F1 "Snacks65-rescue_Adafruit_Feather_32u4_BluefruitLE-MCU_Module" 100 -1250 50 H V L CNN
 F2 "Module:Adafruit_Feather" 100 -1350 50 H I L CIN
 F3 "" 0 200 50 H I C CNN
 $FPLIST
